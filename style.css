@@ -1,0 +1,32 @@
+    /* CSS Document */
+* {box-sizing: border-box;}
+body { margin: 0; padding: 0; font-size: 1em; margin: auto; font-family: 'lato', serif;  background-color: #acbaeb; color: #ffffff; }
+h1, h2 {font-weight: 900; color:#ffb000; font-size: 2em;}
+a {text-decoration: none; color: #061f70; width: 100%;}
+a:hover {text-decoration: underline;}
+.container {max-width:1000px; margin: 0 auto; background-color: #6e86d6; overflow: hidden;}
+
+.column, .full-width {width: 96%; margin: 5px 2%;  padding: 0; float: left; }
+.sub-column { width: 46%; margin: 5px 2%;  display: inline-block; padding: 0; float: left; }
+
+.topline {border-top: 3px solid #ffb000;}
+.bottomline {border-bottom: 3px solid #ffb000;}
+
+.buttons {background-color: #ffb000;  font-weight: 900; text-align: center; width: 100%; display: inline-block; padding: 20px; margin: 10px 0; font-size: 1.5em;}
+
+@media (min-width: 700px) {
+    .column { width: 46%; }
+    .sub-column {width: 21%; }
+}
+
+
+    
+    
+    /*
+    body { background-color: #6e86d6; color: #ffffff; font-family: 'lato', serif; font-size: 1em; font-weight: 400; margin:0; padding: 0; }
+    .container {margin: 0 auto; max-width: 1000px; background-color: #1437ad;}
+    .button1 {background-color: #ffb000; color: #061f70; font-weight: 900; padding: 20px; margin: 20px 0; overflow: hidden;}
+    .button__buy-it {width: 100%;}
+    h1, h2, h3, h4 {font-weight: 900; color:#ffb000; font-size: 1.5em; padding-top: 1em;}
+    
+    /*
