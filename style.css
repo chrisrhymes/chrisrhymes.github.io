@@ -1,6 +1,6 @@
     /* CSS Document */
 * {box-sizing: border-box;}
-body { margin: 0; padding: 0; font-size: 1em; margin: auto; font-family: arial;  background-color: #dfdfdf; color: #000000; }
+body { margin: 0; padding: 0; font-size: 1em; margin: auto; font-family: 'Droid Sans' arial;  background-color: #dfdfdf; color: #000000; }
 h1, h2 {font-weight: 900; color:#cc0000; font-family: 'Pacifico', sans-serif; font-weight: bold;}
 h1 {font-size: 2.5em; text-shadow: 3px 3px #333333;}
 h2 {font-size: 2em;}
