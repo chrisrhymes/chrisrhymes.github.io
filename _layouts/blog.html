@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper"><div class="home">
+
+        <h1>Blog</h1>
+        <p>Welcome to my blog.</p>
+
+          {% for post in site.posts %}
+                <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+                <hr>
+          {% endfor %}
+        
+
+        <div class="panel text-center">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></div>
+
+      </div>
+    </div>
+  </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+

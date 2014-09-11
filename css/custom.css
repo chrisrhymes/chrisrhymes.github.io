@@ -1,0 +1,16 @@
+h1, h2, h3, h4 {font-family: 'Pacifico', cursive;}
+
+.site-title { font-family: 'Pacifico', cursive; color: #ffffff; font-weight: bold; font-size: 1.5em;}
+
+a:hover {text-decoration: underline;}
+
+.top-bar, .contain-to-grid, .top-bar-section {background-color: #971427; }
+
+button, .button {background-color: #971427;}
+
+button:hover, .button:hover {background-color: #000000;}
+
+@media only screen and (min-width: 40.063em) {
+.top-bar-section li:not(.has-form) a:not(.button) {background-color: #971427;}
+
+}
