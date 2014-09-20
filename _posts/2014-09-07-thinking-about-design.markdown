@@ -17,7 +17,7 @@ The dimesions (width and length) make buses slow as they can't turn corners too 
 
 So how can modern technology and new design resolve these issues? 
 
-Lets start with the size of a bus. Buses have ot be big to carry lots of people, but they need to carry lots of people as they are slow and can't get there and back quick enough. How about we make the bus smaller, lower and narrower, but so that it can still carry a reasonable amount of people. This will make the bus have a lower centre of gravity so it can go round corners faster. 
+Lets start with the size of a bus. Buses have to be big to carry lots of people, but they need to carry lots of people as they are slow and can't get there and back quick enough. How about we make the bus smaller, lower and narrower, but so that it can still carry a reasonable amount of people. This will make the bus have a lower centre of gravity so it can go round corners faster. 
 
 Buses have to keep stopping to pick people up which also slows it down and annoys road users, so why don't we make it so it only goes from one place to another without picking people up on the way. 
 
