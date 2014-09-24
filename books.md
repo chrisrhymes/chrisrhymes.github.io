@@ -2,6 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
+description: "Find out more about the books written by author C.S. Rhymes, including How NOT to make a website"
 ---
 
 I have written a couple of books that are available to buy on Amazon. 
