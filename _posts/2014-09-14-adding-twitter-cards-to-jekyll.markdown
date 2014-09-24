@@ -39,11 +39,13 @@ So now you need to add content into the meta tags for each page. To do this I cr
 
 ### Example Front Matter with custom variables
 
-  ---
-  title:  "Example page title here"
-  description: "You can use this as the standard description meta tag and twitter description if required"
-  twitter-description: "This is a specific twitter card description (optional)"
-  ---
+{% highlight yaml %}
+---
+title:  "Example page title here"
+description: "You can use this as the standard description meta tag and twitter description if required"
+twitter-description: "This is a specific twitter card description (optional)"
+---
+{% endhighlight %}
 
 I used my standard page title as the content for the twitter:title tag, but I thought I had better put a back up value in there of the site.title in case I forgot to set the title for every page.
 
