@@ -57,9 +57,7 @@ I then created a custom variable for the description. Previously, I have added d
 
 ### Adding Page Description to Description Meta Tag
 
-{% highlight html %}
     <meta name="description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}">
-{% endhighlight %}
 
 You can then do the same for the image if you require, or you can hard code a single URL for each page (as in the below example) if you don't have a different image for each page.
 
@@ -67,7 +65,7 @@ You can then do the same for the image if you require, or you can hard code a si
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@chrisrhymes" />
-    <meta name="twitter:title" content="<% raw %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}" />
+    <meta name="twitter:title" content="{% raw %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}" />
     <meta name="twitter:description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}" />
     <meta name="twitter:image" content="http://chrisrhymes.github.io/img/csrhymeslogo.png" />
 
