@@ -49,7 +49,9 @@ twitter-description: "This is a specific twitter card description (optional)"
 
 I used my standard page title as the content for the twitter:title tag, but I thought I had better put a back up value in there of the site.title in case I forgot to set the title for every page.
 
+{% highlight html %}
   {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+{% endhighlight %}
   
 The above basically says if there is a page title variable then use that, else (if not) then use the site title variable.
 
