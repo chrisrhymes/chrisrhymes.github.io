@@ -59,7 +59,9 @@ I then created a custom variable for the description. Previously, I have added d
 
 ### Adding Page Description to Description Meta Tag
 
+{% highlight html %}
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% endhighlight %}
 
 You can then do the same for the image if you require, or you can hard code a single URL for each page (as in the below example) if you don't have a different image for each page.
 
