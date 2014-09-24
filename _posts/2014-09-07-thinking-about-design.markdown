@@ -3,6 +3,7 @@ layout: post
 title:  "Thinking about design"
 date:   2014-09-07 19:10:07
 categories: jekyll update
+description: "Thoughts about how design and technology can be used to improve public transport"
 ---
 
 I was following a bus the other day and it was so slow. It started me thinking about the design of a bus and how could it be imporved with modern technology. Some of the problems with buses include:

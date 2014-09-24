@@ -3,6 +3,7 @@ layout: post
 title:  "Upcoming Book Promotions"
 date:   2014-09-20 21:40:07
 categories: books update promotions
+description: "Just a quick message to let you know of a couple of promotions on my books in Amazon UK store"
 ---
 
 Just a quick message to let you know of a couple of promotions on my [books](/books/) on the Amazon UK kindle store. 

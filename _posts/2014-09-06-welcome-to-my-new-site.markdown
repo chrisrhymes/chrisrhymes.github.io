@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to my new site!"
 date:   2014-09-06 21:08:07
 categories: jekyll update
+description: "Welcome to my new site and blog, powered by Jekyll"
 ---
 
 Hello and welcome to my new site, powered by Jekyll. 
