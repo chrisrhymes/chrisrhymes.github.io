@@ -27,11 +27,13 @@ You can also add an image.
 
 Below is the example HTML meta tags.
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@twitterhandle" />
-    <meta name="twitter:title" content="Page title goes here" />
-    <meta name="twitter:description" content="Page description goes in here" />
-    <meta name="twitter:image" content="Image URL" />
+{% highlight html %}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@twitterhandle" />
+<meta name="twitter:title" content="Page title goes here" />
+<meta name="twitter:description" content="Page description goes in here" />
+<meta name="twitter:image" content="Image URL" />
+{% endhighlight %}
 
 ## Adding custom template tags
 
@@ -57,17 +59,21 @@ I then created a custom variable for the description. Previously, I have added d
 
 ### Adding Page Description to Description Meta Tag
 
-    <meta name="description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}">
+{% highlight html %}
+<meta name="description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}">
+{% endhighlight %}
 
 You can then do the same for the image if you require, or you can hard code a single URL for each page (as in the below example) if you don't have a different image for each page.
 
 ### Twitter Meta Tags with variables added
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@chrisrhymes" />
-    <meta name="twitter:title" content="{% raw %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}" />
-    <meta name="twitter:description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}" />
-    <meta name="twitter:image" content="http://chrisrhymes.github.io/img/csrhymeslogo.png" />
+{% highlight html %}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@chrisrhymes" />
+<meta name="twitter:title" content="{% raw %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}" />
+<meta name="twitter:description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}" />
+<meta name="twitter:image" content="http://chrisrhymes.github.io/img/csrhymeslogo.png" />
+{% endhighlight %}
 
 ## Validating Your Cards
 
