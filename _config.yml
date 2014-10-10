@@ -13,3 +13,6 @@ markdown: kramdown
 
 #Syntax Highlighter
 #highlighter: rouge
+
+gems:
+  - jekyll-sitemap
