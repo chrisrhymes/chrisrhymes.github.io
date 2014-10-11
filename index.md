@@ -8,9 +8,11 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
 
 ![Alt text](/img/chromebook.jpg "Chromebook")
 
-<a href="/books/" title="Books" class="button expand">Books</a>
-<a href="/blog/" title="Blog" class="button expand">Blog</a>
-<a href="/about/" title="About" class="button expand">About</a>
+<ul class="small-block-grid-1 medium-block-grid-3">
+	<li><a href="/about/" title="About" class="button expand">About</a></li>
+	<li><a href="/blog/" title="Blog" class="button expand">Blog</a></li>
+	<li><a href="/books/" title="Books" class="button expand">Books</a></li>
+</ul>
 
 
 
