@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learnings about Social Media Marketing"
-date:   2014-10-07 20:47:07
+date:   2014-10-15 20:00:07
 categories: website social digital marketing
 description: "Some of my initial learnings about Social Media Marketing and why I'm spending more time thinking about it"
 ---
