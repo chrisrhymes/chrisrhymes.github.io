@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Going into Airplane Mode"
+title:  "Going into Aeroplane Mode"
 date:   2014-11-02 15:18:07
 categories: offline creativity
 description: "A few thoughts about deliberately going into aeroplane mode to maximise concentration and focus to become more productive"
 ---
 
 Last week I went on holiday abroad and as data was not included on my contract for that country I had to turn data roaming off. I also had to go into aeroplane mode on the flights there and back. The result was no app notifications for a week.
+
+<p class="text-center"><i class="fa fa-fighter-jet fa-4x"></i></p>
 
 This allowed me to realise how much time I spend using my phone and tablet (not to mention my laptop and chromebook) in a normal week. It was actually really nice to be able to switch off for a week and not be bothered by updates from emails, twitter, facebook and linkedin, and it allowed me to appreciate my holiday a lot more.
 
