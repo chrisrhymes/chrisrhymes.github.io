@@ -4,15 +4,27 @@ title: Home
 permalink: /
 ---
 
-Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author (in my spare time).
+Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author.
 
-![Alt text](/img/chromebook2.jpg "Chromebook")
+<div class="small-12 medium-5 columns text-center">
+  <i class="fa fa-terminal fa-5x"></i> 
+  <h2>Developer</h2>
+</div>
+
+<div class="small-12 medium-2 columns text-center">
+  <h2></h2>
+  <i class="fa fa-plus fa-3x"></i> 
+  
+</div>
+
+<div class="small-12 medium-5 columns text-center">
+  <i class="fa fa-book fa-5x"></i> 
+  <h2>Author</h2>
+</div>
 
 <hr>
 
-<h2 class="text-center">Books</h2>
-
-<hr>
+<h2 class="text-center">My Books</h2>
 
 <div class="small-12 medium-6 columns">
 <ul class="pricing-table">
@@ -33,7 +45,7 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
   <li class="price">&pound;1.99</li>
   <li class="description">This book is written for all those people that over the years have shied away from getting a smartphone in the past and their old trusty Nokia 3310 has finally beeped its last polyphonic ringtone. </li>
   <li class="bullet-item"><img src="/img/how-not-to-use-a-smartphone-cover-LR.jpg" /></li>
-  <li class="bullet-item">Covering smartphone operating systems/li>
+  <li class="bullet-item">Covering smartphone operating systems</li>
   <li class="bullet-item">Apps</li>
   <li class="bullet-item">Common touch screen actions</li>
   <li class="cta-button"><a class="button" href="http://www.amazon.co.uk/How-make-Website-C-S-Rhymes-ebook/dp/B00KEE3HES/">Buy Now</a></li>
@@ -42,12 +54,12 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
 
 <hr>
 
-<h2 class="text-center">Blog</h2>
-          {% for post in site.posts limit:1 %}
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
-                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
-                <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
-                <hr>
-          {% endfor %}
+<h2 class="text-center">Latest Blog Post</h2>
+
+{% for post in site.posts limit:1 %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+<p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+{% endfor %}
 
 
