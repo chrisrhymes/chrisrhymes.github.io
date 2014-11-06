@@ -40,12 +40,14 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
 </ul>
 </div>
 
-<div class="small-12 columns">
-<ul class="small-block-grid-1 medium-block-grid-3">
-	<li><a href="/about/" title="About" class="button expand">About</a></li>
-	<li><a href="/blog/" title="Blog" class="button expand">Blog</a></li>
-	<li><a href="/books/" title="Books" class="button expand">Books</a></li>
-</ul>
-</div>
+<hr>
+
+<h2 class="text-center">Blog</h2>
+          {% for post in site.posts limit:1 %}
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+                <hr>
+          {% endfor %}
 
 
