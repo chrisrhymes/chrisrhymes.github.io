@@ -16,3 +16,4 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
