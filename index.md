@@ -7,18 +7,18 @@ permalink: /
 Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author.
 
 <div class="small-12 medium-5 columns text-center">
-  <i class="fa fa-terminal fa-5x"></i> 
+  <i class="fa fa-terminal fa-5x"></i>
   <h2>Developer</h2>
 </div>
 
 <div class="small-12 medium-2 columns text-center">
   <h2></h2>
-  <i class="fa fa-plus fa-3x"></i> 
-  
+  <i class="fa fa-plus fa-3x"></i>
+
 </div>
 
 <div class="small-12 medium-5 columns text-center">
-  <i class="fa fa-book fa-5x"></i> 
+  <i class="fa fa-book fa-5x"></i>
   <h2>Author</h2>
 </div>
 
@@ -48,7 +48,7 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
   <li class="bullet-item">Covering smartphone operating systems</li>
   <li class="bullet-item">Apps</li>
   <li class="bullet-item">Common touch screen actions</li>
-  <li class="cta-button"><a class="button" href="http://www.amazon.co.uk/How-make-Website-C-S-Rhymes-ebook/dp/B00KEE3HES/">Buy Now</a></li>
+  <li class="cta-button"><a class="button" href="http://www.amazon.co.uk/How-NOT-Smartphone-C-S-Rhymes-ebook/dp/B00MVB5JOS/">Buy Now</a></li>
 </ul>
 </div>
 
