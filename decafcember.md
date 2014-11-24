@@ -33,7 +33,7 @@ If you want to help me by joining in, or simply spread the word, why not share t
 
 Remember to use the hastag #Decafcember
 
-<p><strong>Share: </strong><div class="addthis_sharing_toolbox" class="right"></div></p>
+<p><strong>Share: </strong><div class="addthis_sharing_toolbox"></div></p>
 
 Thanks!
 
