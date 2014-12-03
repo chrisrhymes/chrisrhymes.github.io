@@ -6,6 +6,8 @@ permalink: /
 
 Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author.
 
+<blockquote>Making effective, modern, responsive websites</blockquote>
+
 <div class="small-12 medium-5 columns text-center">
   <i class="fa fa-terminal fa-5x"></i>
   <h2>Developer</h2>
@@ -21,8 +23,6 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
   <i class="fa fa-book fa-5x"></i>
   <h2>Author</h2>
 </div>
-
-<blockquote>Making effective, modern, responsive websites</blockquote>
 
 <hr>
 
