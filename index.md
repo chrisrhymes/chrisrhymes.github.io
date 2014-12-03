@@ -22,6 +22,8 @@ Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and 
   <h2>Author</h2>
 </div>
 
+<blockquote>Making effective, modern, responsive websites</blockquote>
+
 <hr>
 
 <h2 class="text-center">My Books</h2>
