@@ -3,7 +3,7 @@ layout: post
 title:  "How to become a web developer - Part 3"
 date:   2015-01-22 20:38:07
 categories: training learning developer
-description: "MAking sure your web development work is backed up with version control, such as Git."
+description: "Making sure your web development work is backed up with version control, such as Git."
 ---
 
 One of the biggest lessons I learnt was to make sure you have all your code backed up. When working on a project you may add and remove lots of lines of code in a couple of hours and its easy to make a mistake and delete the wrong line and for some reason the all mighty UNDO funtion doesn't bring it back.
