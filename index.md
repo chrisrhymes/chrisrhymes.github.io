@@ -1,28 +1,36 @@
 ---
 layout: page
-title: Home
+title: Welcome
 permalink: /
 ---
 
-Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author.
-
-<blockquote>Making effective, modern, responsive websites</blockquote>
-
-<div class="small-12 medium-5 columns text-center">
+<div class="row homepage-banner">
+<div class="small-12 medium-5 columns text-center white shadow">
   <i class="fa fa-terminal fa-5x"></i>
-  <h2>Developer</h2>
+  <h2 class="white shadow">Developer</h2>
 </div>
 
-<div class="small-12 medium-2 columns text-center">
+<div class="small-12 medium-2 columns text-center white shadow">
   <h2></h2>
   <i class="fa fa-plus fa-3x"></i>
 
 </div>
 
-<div class="small-12 medium-5 columns text-center">
+<div class="small-12 medium-5 columns text-center white shadow">
   <i class="fa fa-book fa-5x"></i>
-  <h2>Author</h2>
+  <h2 class="white shadow">Author</h2>
 </div>
+</div>
+
+<h3>My Mission</h3>
+
+> Making effective, modern, responsive websites and helping others do the same!
+
+Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author. I've written a couple of [books](/books/ "Check out my books") that are available on the Amazon Kindle store. 
+
+I also write a [blog](/blog/ "Check out my blog") with technology, web and other random topics, so make sure you check it out too.
+
+
 
 <hr>
 
