@@ -41,7 +41,7 @@ I also write a [blog](/blog/ "Check out my blog") with technology, web and other
   <li class="title"><h3 class="white">How NOT to make a Website</h3></li>
   <li class="price">&pound;1.99</li>
   <li class="description">What I have learnt from over seven years’ experience of working on websites is that there are many things to avoid when making your website, in a sense, I have learnt How NOT to make a website. </li>
-  <li class="bullet-item"><img src="/img/how-not-to-make-a-website-cover-LR.jpg" /></li>
+  <li class="bullet-item"><img src="/img/how-not-to-make-a-website-cover-2.jpg" /></li>
   <li class="bullet-item">Aimed at website beginners, not developers</li>
   <li class="bullet-item">Perfect for business owners and website owners</li>
   <li class="bullet-item">Written in a non technical way with easy to understand examples</li>
@@ -54,7 +54,7 @@ I also write a [blog](/blog/ "Check out my blog") with technology, web and other
   <li class="title"><h3 class="white">How NOT to use a Smartphone</h3></li>
   <li class="price">&pound;1.99</li>
   <li class="description">This book is written for all those people that over the years have shied away from getting a smartphone in the past and their old trusty Nokia 3310 has finally beeped its last polyphonic ringtone. </li>
-  <li class="bullet-item"><img src="/img/how-not-to-use-a-smartphone-cover-LR.jpg" /></li>
+  <li class="bullet-item"><img src="/img/how-not-to-use-a-smartphone-cover-2.jpg" /></li>
   <li class="bullet-item">Covering smartphone operating systems</li>
   <li class="bullet-item">Apps</li>
   <li class="bullet-item">Common touch screen actions</li>
