@@ -2,6 +2,7 @@
 layout: page
 title: Welcome
 permalink: /
+image: http://www.csrhymes.com/img/desk.jpg
 ---
 
 <div class="row homepage-banner">

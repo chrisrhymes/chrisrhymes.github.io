@@ -3,6 +3,7 @@ layout: page
 title: Sites
 permalink: /sites/
 description: "Here are a few of the sites I have worked on for friends and family"
+image: http://www.csrhymes.com/img/orkos-house.png
 ---
 
 ## Orkos House, Naxos

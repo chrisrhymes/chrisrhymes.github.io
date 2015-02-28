@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 description: "Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author"
+image: http://csrhymes.com/img/books.jpg
 ---
 
 Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author (in my spare time).

@@ -4,6 +4,7 @@ title:  "How computers work - Bits, Bytes and Lights"
 date:   2015-02-16 19:32:07
 categories: random computers
 description: "If you work in IT then I'm sure you get asked the question 'How do computers work?', well here's a simple post you can reference"
+image: http://www.csrhymes.com/img/bits-bytes-lights.jpg
 ---
 
 If you work in IT then I'm sure you get asked the question 'How do computers work?', well here's a simple post you can reference...
@@ -24,6 +25,8 @@ By the way, many more are avalaible from the [Tech Terms](http://techterms.com/c
 People will smile and nod and then probably make an excuse to leave. This is not particularly helpful. Instead, I try and use real world examples to demonstrate the principles of computing.
 
 ## Bits, Bytes and Lights
+
+![Bits, Bytes and Lights](/img/bits-bytes-lights.jpg "Bits, Bytes and Lights")
 
 In essence, computers are simply a lot of switches. Computers use bits, where a bit is considered either 1 or zero, or on or off. A group of 8 bits is commonly called a byte.
 
