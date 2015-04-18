@@ -41,7 +41,8 @@ This may sound like a bit of a geeky thing to do, but the process of drawing a f
 
 Using a flowchart will help you understand if any additional notifications or screens are needed if the user does something unexpected, such as pressing cancel rather than ok. It helps you think about where they should return to when they press the back button in the middle of completing a screen. Should they immediately return to the previous screen or should they be asked if they are sure first so they don’t lose their current progress.
 
-Tip 5: Think about common functions in different screens
+## Tip 5: Think about common functions in different screens
+
 Try and make your code reusable by different screens. Identify what actions are common between different screens, such as uploading an image, and write code for that function that can be called by the different screens that allow you to do the task. This means that you can maintain the code in one place and it will be updated everywhere it is used. 
 
 > Try and make your code reusable by different screens.
