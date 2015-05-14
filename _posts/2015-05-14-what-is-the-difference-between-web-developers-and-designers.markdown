@@ -3,7 +3,7 @@ layout: post
 title:  "What is the difference between web developers and web designers"
 date:   2015-04-18 10:24:07
 categories: development design
-description: "What is teh difference between web developer and web designer. To some it's obvious but in my experience it is not as simple as may first appear"
+description: "What is the difference between web developer and web designer. To some it's obvious but in my experience it is not as simple as may first appear"
 image: http://www.csrhymes.com/img/developer-designer.jpg
 ---
 
