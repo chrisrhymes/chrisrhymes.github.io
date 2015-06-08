@@ -22,3 +22,9 @@ Here is one I worked on a few years ago now. A local pub wanted a site they coul
 
 <a href="http://www.therobinhoodbuckingham.co.uk/" class="button expand">Visit The Robin Hood Buckingham website</a>
 
+## Choosing a Mac
+
+I've made a simple web app to help people choose which Mac best suits their needs. It's simple to use, with easy to answer questions. It's a simple showcase of what can be achieved using a bit of HTML and JavaScript. 
+
+<a href="http://www.csrhymes.com/choosing-a-mac/" class="button expand">Choosing a Mac</a>
+
