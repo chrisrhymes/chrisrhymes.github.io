@@ -25,7 +25,7 @@ image: http://www.csrhymes.com/img/printable-smartwatch.jpg
 <li>Simple to use, with a infinite battery life. No need to worry about water proofing, just print and cut out a new one!</li>
 <li>Easy to change the colour, using felt tips, colour pencils or even crayons! Just colour in to suit your own personal taste.</li> 
 <li>Available in a range of different programming languages so you can show off your favourite coding language to the rest of the world!</li>
-<li>WSimply use a paperclip to secure the strap!</li>
+<li>Simply use a paperclip to secure the strap!</li>
 <li>Print out more and share with your friends!</li>
 </ul>
 
