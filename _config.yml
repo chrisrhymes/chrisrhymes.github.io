@@ -9,6 +9,10 @@ twitter_username: chrisrhymes
 github_username:  chrisrhymes
 image: http://chrisrhymes.github.io/img/csrhymeslogo.png
 
+# Pagination settings
+paginate: 10
+paginate_path: "/blog/page:num"
+
 # Build settings
 markdown: kramdown
 
