@@ -4,7 +4,7 @@ title:  "Getting your site ready for Pinterest"
 date:   2015-06-08 20:54:07
 categories: development pinterest social
 description: "What is pinterest and what do I need to do to get my site ready for pinners?"
-image: http://www.csrhymes.com/img/getting-ready-for-pinterest.jpg
+image: http://www.csrhymes.com/img/getting-ready-for-pinterest.png
 ---
 
 You may have heard of another social network called Pinterest, but what is it and what do you need to do to optimise your site for it? 

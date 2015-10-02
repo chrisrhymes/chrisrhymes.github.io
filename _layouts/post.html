@@ -12,6 +12,8 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+      <p>Tagged with <strong>{{ page.categories | join: ', ' }}</strong></p>
   </article>
   <div id="disqus_thread"></div>
     <script type="text/javascript">
