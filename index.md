@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Welcome
 permalink: /
 image: http://www.csrhymes.com/img/desk.jpg
