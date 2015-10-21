@@ -19,7 +19,7 @@ I find it very rare that something works straight out of the box without customi
 
 Many open source products are built on something else, so learning how the product extends what's underneath gives you even more knowledge.
 
-A site I would definitely recommend reading is A List Apart. This is a very high quality site with some great articles and columns about all aspects of web development, from CMS’s to Social Media to Web Design.
+A site I would definitely recommend reading is [A List Apart](http://alistapart.com/). This is a very high quality site with some great articles and columns about all aspects of web development, from CMS’s to Social Media to Web Design.
 
 As an author I really enjoy reading but this is not everyone's idea of fun. A more interactive option is videos.
 
@@ -29,13 +29,13 @@ If you want to learn anything then chances are there is a video about it on YouT
 
 It can sometimes be easier to follow videos, but the issue is that they move at their own speed, meaning that you might miss something important. Sometimes I find I have to pause and rewind video tutorials just to make sure I understood what it was saying. 
 
-As well as free videos, there are also some paid for video tutorials available online. One example of this is the excellent Laracasts, providing training for the Laravel php framework, as well as general training on programming best practice. Try asking for advice on social networks for which sites are worth subscribing to. Also check if they provide a month's free trial so you can see what you are getting for your money. 
+As well as free videos, there are also some paid for video tutorials available online. One example of this is the excellent [Laracasts](https://laracasts.com/), providing training for the Laravel php framework, as well as general training on programming best practice. Try asking for advice on social networks for which sites are worth subscribing to. Also check if they provide a month's free trial so you can see what you are getting for your money. 
 
 ## Podcasts
 
 If you don’t have much time for reading or watching videos then why not try downloading and listening to podcasts on your way to work on the bus or in the car. There are so many available, just do a quick web search for it. 
 
-For example, there is a list of 18 web design podcasts on the creative bloq website, although some of them are a bit out of date now. Try and find one that is regularly updated and talks about current trends. 
+For example, there is a list of 18 web design podcasts on the [creative bloq website](http://www.creativebloq.com/design/web-design-podcasts-3132988), although some of them are a bit out of date now. Try and find one that is regularly updated and talks about current trends. 
 
 You can even listen whilst working. I find that you take in more than you think without concentrating on it too much. Personally I proffer to listen to music whilst coding as I find it helps me concentrate, but some people can do many things at once. 
 
@@ -55,6 +55,6 @@ I have been to a few conferences now and find them a great way of learning new t
 
 Some of the talks I have found useful are the talks that are not even technical, but are more about others sharing their experiences of being self employed or how they pushed themselves to progress their own career to the next level. You can often struggle to get as much inspiration from reading blogs and watching videos as seeing someone speak in person. 
 
-By the way, I would highly recommend going to Generate Conference (London) and ReDevelop (Bournemouth). 
+By the way, I would highly recommend going to [Generate Conference](http://www.generateconf.com/) (London) and [re:develop](http://redevelop.io/) (Bournemouth). 
 
 
