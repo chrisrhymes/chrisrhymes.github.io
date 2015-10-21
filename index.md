@@ -69,6 +69,7 @@ I also write a [blog](/blog/ "Check out my blog") with technology, web and other
 
 {% for post in site.posts limit:1 %}
 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+{% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
 <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
 <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
 {% endfor %}

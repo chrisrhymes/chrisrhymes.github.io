@@ -10,12 +10,24 @@ layout: default
         <p><strong>Share: </strong><div class="addthis_sharing_toolbox" class="right"></div></p>
   </header>
 
-  <article class="post-content">
+  <article class="small-12 large-9 columns post-content">
     {{ content }}
 
       <p>Tagged with <strong>{{ page.categories | join: ', ' }}</strong></p>
+
+      <div id="disqus_thread"></div>
   </article>
-  <div id="disqus_thread"></div>
+
+
+
+    <aside class="small-12 large-3 columns panel">
+        <h2>Recent Posts</h2>
+        {% for post in site.posts limit:5 %}
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+        {% endfor %}
+    </aside>
     <script type="text/javascript">
         
         var disqus_shortname = 'csrhymes'; 
