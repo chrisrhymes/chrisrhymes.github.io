@@ -21,6 +21,7 @@ code { display: block; overflow-x: auto;}
 
 .white { color: white;  }
 
-.homepage-banner { width: 100%; height: auto; background: url(/img/desk.jpg) center center no-repeat; padding: 40px 0;}
+.homepage-banner { width: 100%; height: auto; background: url(/img/developer-and-author.jpg) center center no-repeat; padding: 20px 0;}
+.homepage-icon {margin: 50px 0;}
 
 .shadow {text-shadow: 2px 2px #000000;}

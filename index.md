@@ -6,18 +6,18 @@ image: http://www.csrhymes.com/img/desk.jpg
 ---
 
 <div class="row homepage-banner">
-<div class="small-12 medium-5 columns text-center white shadow">
+<div class="small-12 medium-5 columns text-center white shadow homepage-icon">
   <i class="fa fa-terminal fa-5x"></i>
   <h2 class="white shadow">Developer</h2>
 </div>
 
-<div class="small-12 medium-2 columns text-center white shadow">
+<div class="small-12 medium-2 columns text-center white shadow homepage-icon">
   <h2></h2>
   <i class="fa fa-plus fa-3x"></i>
 
 </div>
 
-<div class="small-12 medium-5 columns text-center white shadow">
+<div class="small-12 medium-5 columns text-center white shadow homepage-icon">
   <i class="fa fa-book fa-5x"></i>
   <h2 class="white shadow">Author</h2>
 </div>
