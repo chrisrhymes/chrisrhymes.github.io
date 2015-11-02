@@ -4,7 +4,7 @@ title:  "How to learn"
 date:   2015-10-21 20:00:07
 categories: development learning
 description: "The field of web technology is constantly changing, so as a web developer a part of your skill set must be learning"
-image: /img/learning.jpg
+image: http://www.csrhymes.com/img/learning.jpg
 ---
 
 The field of web technology is constantly changing, so as a web developer a part of your skill set must be learning. Learning is great and gives you new skills and knowledge to help you get better at your job. But the longer you spend learning, the less money you are earning! This post will go through some other ideas of different ways of learning.

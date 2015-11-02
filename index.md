@@ -40,7 +40,7 @@ I also write a [blog](/blog/ "Check out my blog") with technology, web and other
 <div class="small-12 medium-6 columns">
 <ul class="pricing-table">
   <li class="title"><h3 class="white">How NOT to make a Website</h3></li>
-  <li class="price">&pound;0.99</li>
+  <li class="price">&pound;1.99</li>
   <li class="description">What I have learnt from over seven years’ experience of working on websites is that there are many things to avoid when making your website, in a sense, I have learnt How NOT to make a website. </li>
   <li class="bullet-item"><img src="/img/how-not-to-make-a-website-cover-2.jpg" /></li>
   <li class="bullet-item">Aimed at website beginners, not developers</li>
