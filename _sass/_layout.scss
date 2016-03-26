@@ -1,0 +1,28 @@
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.section {
+	background: $white;
+	color: $black;
+	padding: 1em;
+	display: block;
+	overflow: hidden;
+}
+
+.section-black {
+	background: $black;
+	color: $white;
+	padding: 1em;
+	overflow: hidden;
+	display: block;
+}
+
+.section-red {
+	background: $secondary;
+	color: $white;
+	padding: 1em;
+	overflow: hidden;
+	display: block;
+}

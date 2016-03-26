@@ -3,3 +3,4 @@ Thumbs.db
 Gemfile.lock
 /.idea
 /node_modules
+/.sass-cache
