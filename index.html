@@ -17,7 +17,7 @@ image: http://www.csrhymes.com/img/desk.jpg
 
 
 
-  <div class="width-2-3-center section">
+  <div class="width-2-3-center">
     <h2 class="text-center">Who am I?</h2>
     <p>Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author.<p>
 
@@ -37,6 +37,7 @@ image: http://www.csrhymes.com/img/desk.jpg
 
     {% for post in site.posts limit:1 %}
     <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="white-link">{{ post.title }}</h3></a>
+    {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
     <div class="width-2-3-center">
       <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
       {{ post.excerpt }} 

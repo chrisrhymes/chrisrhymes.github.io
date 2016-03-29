@@ -4,6 +4,11 @@ body {
 	font-size: 100%;
 }
 
+p, li {
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
 .title {
 	font-family: $decorative-font;
 	font-size: 2em;

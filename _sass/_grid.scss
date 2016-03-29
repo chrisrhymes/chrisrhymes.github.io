@@ -2,11 +2,17 @@
 	box-sizing: border-box;
 }
 
+body {
+	background: #eeeeee;
+}
+
 .row {
 	max-width: 1200px;
 	margin: 0 auto;
 	display: block;
 	clear: both;
+	background: $white;
+	overflow: hidden;
 
 }
 
