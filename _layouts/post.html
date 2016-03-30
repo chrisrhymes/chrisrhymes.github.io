@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="row">
 
-  <header class="post-header">
+
+  <header class="width-1 text-center">
     
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         <p><strong>Share: </strong><div class="addthis_sharing_toolbox" class="right"></div></p>
   </header>
 
-  <article class="small-12 large-9 columns post-content">
+  <article class="width-2-3">
     {{ content }}
 
       <p>Tagged with <strong>{{ page.categories | join: ', ' }}</strong></p>
@@ -20,12 +21,19 @@ layout: default
 
 
 
-    <aside class="small-12 large-3 columns panel">
+    <aside class="width-1-3">
         <h2>Recent Posts</h2>
         {% for post in site.posts limit:5 %}
-        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+        <div class="{% cycle 'section-black', 'section' %}">
+          <div class="text-center">
+            <a href="{{ post.url | prepend: site.baseurl }}"><h3 {% cycle 'class="white-link"', '' %}>{{ post.title }}</h3></a>
+          </div>
+          <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+          {{ post.excerpt }} 
+          <div class="text-center">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read more...</a>
+          </div>
+        </div>
         {% endfor %}
     </aside>
     <script type="text/javascript">

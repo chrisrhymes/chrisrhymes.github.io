@@ -8,39 +8,52 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper"><div class="home">
+      <div class="row">
+        <div class="width-1">
 
-        <h1>Blog</h1>
-        <p>Welcome to my blog.</p>
-
-          {% for post in paginator.posts %}
-                <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
-                <p><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a></p>
-                {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
-                <p>{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}" class="button expand">Read more...</a></p>
-                <hr>
-          {% endfor %}
-
-          <!-- Pagination links -->
-          <div class="pagination">
-              <div class="small-12 columns text-center">
-                  <h4>Page: {{ paginator.page }} of {{ paginator.total_pages }}</h4>
-              </div>
-              <ul class="button-group even-2">
-                  {% if paginator.previous_page %}
-                  <li><a href="{{ paginator.previous_page_path }}" class="button previous">Previous</a></li>
-                  {% else %}
-                  <li><a href="#" class="button secondary disabled previous">Previous</a></li>
-                  {% endif %}
-                  {% if paginator.next_page %}
-                  <li><a href="{{ paginator.next_page_path }}" class="button next">Next</a></li>
-                  {% else %}
-                  <li><a href="#" class="button secondary disabled next">Next</a></li>
-                  {% endif %}
-              </ul>
-
+          <div class="text-center">
+            <h1>Blog</h1>
           </div>
+
+            {% for post in paginator.posts %}
+              <div class="{% cycle 'section-black', 'section' %}">
+                  <div class="text-center">
+                    <a href="{{ post.url | prepend: site.baseurl }}" {% cycle 'class="white-link"', '' %}>
+                      <h2>{{ post.title }}</h2>
+                    </a>
+                    <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                    <p><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a></p>
+                  </div>
+                  
+                  {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
+                  <div class="width-2-3-center">
+                    {{ post.excerpt }} 
+                    <div class="text-center">
+                      <a href="{{ post.url | prepend: site.baseurl }}" class="button expand">Read more...</a>
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+
+            <!-- Pagination links -->
+            <div class="pagination">
+                <div class="text-center">
+                    <h4>Page: {{ paginator.page }} of {{ paginator.total_pages }}</h4>
+                
+                
+                    {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path }}" class="button previous">Previous</a>
+                    {% else %}
+                    <p class="button secondary disabled previous">Previous</p>
+                    {% endif %}
+                    {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path }}" class="button next">Next</a>
+                    {% else %}
+                    <p class="button secondary disabled next">Next</p>
+                    {% endif %}
+                </div>
+
+            </div>
         
 
         <div class="panel text-center"><h2>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></h2></div>

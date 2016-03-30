@@ -1,29 +1,28 @@
 <header>
-  <div class="contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <a href="/" class="site-title">C.S. Rhymes</a>
-      </li>
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-          {% for page in site.pages %}
-            {% if page.layout == 'page' %}
-            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-          <li><a class="page-link" href="/blog/">Blog</a></li>
-      </ul>
-
-    </section>
-  </nav>
+<div class="row text-center">
+  <div class="width-1">
+    <a href="/" title="Home">
+      <h1 class="title">C.S. Rhymes</h1>
+      <h3>Web Developer &amp; Author</h3>
+    </a>
+  </div>  
 </div>
+
+<div class="row">  
+    <nav class="main-nav">
+      <a href="#topNav" class="top-nav-button" id="menuButton">Menu <i class="fa fa-bars fa-lg"></i></a>
+      <ul class="top-nav" id="topNav">
+          <li class="top-nav-item home"><a href="/" title="Home" class="top-nav-link">Home</a></li>
+          {% assign: sorted-nav = site.pages | sort: "order" %}
+            {% for page in sorted-nav %}
+              {% if page.layout == 'page' %}
+              <li class="top-nav-item"><a class="top-nav-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+            <li class="top-nav-item"><a class="top-nav-link" href="/blog/" title="Blog">Blog</a></li>
+        </ul>
+    </nav>   
+</div>
+   
 </header>
 
-<div class="row">
-  <div class="small-12 columns">
