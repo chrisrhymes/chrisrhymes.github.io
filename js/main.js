@@ -23,5 +23,9 @@ window.onload = function() {
 		}
 	});
 
-	console.log(menuShow);
+	if(topNav.offsetHeight >= window.innerHeight) 
+	{
+		topNav.style.height = (window.innerHeight - menuButton.offsetHeight) + 'px';
+		topNav.style.overflowY = 'scroll';
+	}
 }
