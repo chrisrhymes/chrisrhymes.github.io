@@ -11,14 +11,32 @@ img {
 	overflow: hidden;
 	border: 1px solid $black;
 }
+.left-corner {
+	@media (min-width: $tablet-width) {
+		background-image: url('/img/layout/left-corner.png');
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		padding-bottom: 3em;
+	}
+}
 
 .section-black {
-	background: $black;
+	background-color: $black;
 	color: $white;
 	padding: 1em;
 	overflow: hidden;
 	display: block;
 }
+
+.right-corner {
+	@media (min-width: $tablet-width) {
+		background-image: url('/img/layout/right-corner.png');
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		padding-bottom: 3em;
+	}
+}
+
 
 .section-red {
 	background: $secondary;
@@ -26,4 +44,8 @@ img {
 	padding: 1em;
 	overflow: hidden;
 	display: block;
+}
+
+.glasses{
+	background: url('/img/layout/glasses.png') bottom right no-repeat;
 }
