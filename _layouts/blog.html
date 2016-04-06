@@ -16,7 +16,7 @@
           </div>
 
             {% for post in paginator.posts %}
-              <div class="{% cycle 'section-black', 'section' %}">
+              <div class="{% cycle 'section-black right-corner', 'section left-corner' %}">
                   <div class="text-center">
                     <a href="{{ post.url | prepend: site.baseurl }}" {% cycle 'class="white-link"', '' %}>
                       <h2>{{ post.title }}</h2>
@@ -24,10 +24,10 @@
                     <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
                     <p><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a></p>
                   </div>
-                  
+
                   {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
                   <div class="width-2-3-center">
-                    {{ post.excerpt }} 
+                    {{ post.excerpt }}
                     <div class="text-center">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="button expand">Read more...</a>
                     </div>
@@ -39,8 +39,8 @@
             <div class="pagination">
                 <div class="text-center">
                     <h4>Page: {{ paginator.page }} of {{ paginator.total_pages }}</h4>
-                
-                
+
+
                     {% if paginator.previous_page %}
                     <a href="{{ paginator.previous_page_path }}" class="button previous">Previous</a>
                     {% else %}
@@ -54,7 +54,7 @@
                 </div>
 
             </div>
-        
+
 
         <div class="panel text-center"><h2>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></h2></div>
 
@@ -78,5 +78,3 @@
   </body>
 
 </html>
-
-
