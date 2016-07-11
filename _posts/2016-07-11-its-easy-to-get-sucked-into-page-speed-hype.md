@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 title: Its easy to get sucked into Page Speed hype
 layout: post
-date: 2016-07-11T20:09:07.000Z
+date: {}
 categories: development
 description: 'Page speed is important, but just be careful you don''t get sucked into it'
 image: 'http://www.csrhymes.com/img/page-speed.png'
