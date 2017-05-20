@@ -4,7 +4,7 @@ layout: post
 date: 2017-05-20 13:07:07
 categories: development
 description: 'First impressions of Vue.js javascript framework'
-image: 'http://www.csrhymes.com/img/vuejsjpg'
+image: 'http://www.csrhymes.com/img/vuejs.jpg'
 published: true
 ---
 
