@@ -1,20 +1,18 @@
 ---
 layout: default
 ---
-<div class="post">
 
-	<div class="row">
-		<div class="width-1 text-center">
-			<header>
-			    <h1>{{ page.title }}</h1>
-			</header>
+<div class="container">
+	<section class="section">
+		<div class="columns">
+			<div class="column">
+				<header>
+					<h1 class="title brand">{{ page.title }}</h1>
+				</header>
+				<article class="content">
+					{{ content }}
+				</article>
+			</div>
 		</div>
-	</div>
-
-  
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-  
+	</section>
 </div>

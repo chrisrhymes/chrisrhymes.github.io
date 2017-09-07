@@ -1,0 +1,22 @@
+{
+  "name": "chrisrhymes.github.io",
+  "version": "1.0.0",
+  "description": "CS Rhymes personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisrhymes/chrisrhymes.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisrhymes/chrisrhymes.github.io/issues"
+  },
+  "homepage": "https://github.com/chrisrhymes/chrisrhymes.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.5.1"
+  }
+}

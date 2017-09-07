@@ -1,0 +1,28 @@
+$primary: #333333;
+$info: #971427;
+$white: #ffffff;
+$dark: #333333;
+$grey: #ccc;
+
+$brand-font: 'Pacifico', sans-serif;
+
+.brand {
+  font-family: $brand-font;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: $white;
+}
+
+.content-spacer {
+  padding: 1.5rem 0;
+}
+
+img {
+  width: 100%;
+}

@@ -4,17 +4,34 @@
   {% include head.html %}
 
   <body>
+    <div id="app">
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="content">
+          {{ content }}
       </div>
+
+      {% include footer.html %}
     </div>
 
-    {% include footer.html %}
+    <script type="text/javascript" src="/js/main.js" async></script>
 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5389e83123038039" async></script>
+
+    <script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Person",
+	  "name" : "C.S. Rhymes",
+	  "url" : "http://www.csrhymes.com",
+	  "sameAs" : [
+		"https://www.facebook.com/csrhymes",
+		"https://twitter.com/chrisrhymes",
+		"http://www.linkedin.com/pub/chris-rhymes/71/859/a6a",
+		"https://plus.google.com/u/0/105812304907290364686/posts"
+	  ]
+	}
+	</script>
   </body>
 
 </html>

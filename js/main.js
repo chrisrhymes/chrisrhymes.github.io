@@ -4,28 +4,15 @@ window.onload = function() {
 
 	var menuShow = false;
 
-	if(location.hash == "#topNav") 
-	{
-		menuShow = true;
-		menuButton.innerHTML = 'Close <i class="fa fa-times fa-lg"></i>';
-		topNav.className = "top-nav top-nav-open";
-	}
-
 	menuButton.addEventListener("click", function() {
 		if(menuShow) {
-			menuButton.innerHTML = 'Menu <i class="fa fa-bars fa-lg"></i>';
-			topNav.className = "top-nav top-nav-closed";
+			topNav.className = "navbar-menu";
+			menuButton.className = 'navbar-burger burger';
 			menuShow = false;
 		} else {
-			menuButton.innerHTML = 'Close <i class="fa fa-times fa-lg"></i>';
-			topNav.className = "top-nav top-nav-open";
+            topNav.className = "navbar-menu is-active";
+            menuButton.className = 'navbar-burger burger is-active';
 			menuShow = true;
 		}
 	});
-
-	if(topNav.offsetHeight >= window.innerHeight) 
-	{
-		topNav.style.height = (window.innerHeight - menuButton.offsetHeight) + 'px';
-		topNav.style.overflowY = 'scroll';
-	}
-}
+};
