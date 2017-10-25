@@ -1,7 +1,7 @@
 ---
 layout: story
 title: The first gig
-description: "Music is magic, it can generate emotions"
+description: "Music is magic, it generates emotions"
 ---
 
 There are too many interruptions in this day and age. Too many noises from cars or notifications from Facebook and Twitter and text messages and emails constantly bombarding you to check you phone or log on to you laptop. Everything is competing for your attention.
