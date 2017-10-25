@@ -1,0 +1,50 @@
+---
+layout: page
+title: Stories
+order: 4
+description: "Some short stories"
+permalink: /stories/index.html
+---
+
+<section class="hero is-medium is-primary" style="background: url('/img/stories.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title brand">Stories</h1>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <section class="section">
+        <div class="columns is-multiline">
+            <div class="column is-12">
+                <div class="content">
+                    <p>Here are some short stories I want to share with you. I'll try and add more over time so keep checking back!</p>
+                </div>
+            </div>
+            {% for item in site.stories %}
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content">
+                        <p class="title">
+                            {{ item.description }}
+                        </p>
+                        <p class="subtitle">
+                            {{ item.title }}
+                        </p>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <span>
+                                <a href="{{ item.url }}" class="is-link">Read Story</a>
+                            </span>
+                        </p>
+                    </footer>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+
+
