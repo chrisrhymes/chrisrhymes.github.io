@@ -27,13 +27,13 @@ You can also add an image.
 
 Below is the example HTML meta tags.
 
-{% highlight html %}
+```
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@twitterhandle" />
 <meta name="twitter:title" content="Page title goes here" />
 <meta name="twitter:description" content="Page description goes in here" />
 <meta name="twitter:image" content="Image URL" />
-{% endhighlight %}
+```
 
 ## Adding custom template tags
 
@@ -41,13 +41,13 @@ So now you need to add content into the meta tags for each page. To do this I cr
 
 ### Example Front Matter with custom variables
 
-{% highlight yaml %}
+```
 ---
 title:  "Example page title here"
 description: "You can use this as the standard description meta tag and twitter description if required"
 twitter-description: "This is a specific twitter card description (optional)"
 ---
-{% endhighlight %}
+```
 
 I used my standard page title as the content for the twitter:title tag, but I thought I had better put a back up value in there of the site.title in case I forgot to set the title for every page.
 
@@ -59,21 +59,21 @@ I then created a custom variable for the description. Previously, I have added d
 
 ### Adding Page Description to Description Meta Tag
 
-{% highlight html %}
+```
 <meta name="description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}">
-{% endhighlight %}
+```
 
 You can then do the same for the image if you require, or you can hard code a single URL for each page (as in the below example) if you don't have a different image for each page.
 
 ### Twitter Meta Tags with variables added
 
-{% highlight html %}
+```
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@chrisrhymes" />
 <meta name="twitter:title" content="{% raw %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}" />
 <meta name="twitter:description" content="{% raw %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endraw %}" />
 <meta name="twitter:image" content="http://chrisrhymes.github.io/img/csrhymeslogo.png" />
-{% endhighlight %}
+```
 
 ## Validating Your Cards
 

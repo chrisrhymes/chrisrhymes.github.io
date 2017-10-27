@@ -12,9 +12,6 @@ layout: default
                 <p><strong>Share: </strong>
                 <div class="addthis_sharing_toolbox" class="right"></div>
                 </p>
-            </div>
-
-            <div class="column">
                 <div class="has-text-centered">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- Post ads -->
@@ -27,7 +24,9 @@ layout: default
                         (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
+            </div>
 
+            <div class="column is-9">
                 {{ content }}
 
                 <p>Tagged with <strong>{{ page.categories | join: ', ' }}</strong></p>
@@ -49,7 +48,7 @@ layout: default
                         </a>
                     </div>
                     <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
-                    {{ post.excerpt }}
+                    {{ post.excerpt | truncatewords: 25 }}
                     <div class="has-text-centered">
                         <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">Read more...</a>
                     </div>
