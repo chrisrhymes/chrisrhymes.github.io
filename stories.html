@@ -25,22 +25,25 @@ permalink: /stories/index.html
             {% for item in site.stories %}
             <div class="column is-4">
                 <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            {{ item.description }}
-                        </p>
-                        <p class="subtitle">
+                    <div class="card-header">
+                        <p class="card-header-title">
                             {{ item.title }}
                         </p>
                     </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </div>
                     <footer class="card-footer">
                         <p class="card-footer-item">
-                            <span>
-                                <a href="{{ item.url }}" class="is-link">Read Story</a>
-                            </span>
+                        <span>
+                            <a href="{{ item.url }}" class="button is-info">Read Story</a>
+                        </span>
                         </p>
                     </footer>
                 </div>
+
             </div>
             {% endfor %}
         </div>
