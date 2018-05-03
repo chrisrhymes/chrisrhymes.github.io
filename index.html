@@ -71,7 +71,7 @@ image: http://www.csrhymes.com/img/desk.jpg
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
             </a>
-            {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
+            {% if post.image %}<img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>{% endif %}
             <div class="has-text-centered">
                 <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
                 {{ post.excerpt }}

@@ -55,7 +55,7 @@
                             </a>
                             <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
                             <p><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a></p>
-                            {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}"/>{% endif %}
+                            {% if post.image %}<img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>{% endif %}
                             {{ post.excerpt }}
                             <div class="has-text-centered">
                                 <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">Read more...</a>

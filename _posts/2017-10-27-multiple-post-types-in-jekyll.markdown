@@ -4,7 +4,7 @@ layout: post
 date: 2017-10-27 19:09:07
 categories: development
 description: 'How to have multiple post types in Jekyll and GitHub Pages using Collections'
-image: 'http://www.csrhymes.com/img/stories.jpg'
+image: 'https://www.csrhymes.com/img/stories.jpg'
 published: true
 ---
 
