@@ -4,7 +4,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | C.S. Rhymes | Web Developer and Author</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="stylesheet" href="/css/main.css" />
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Questrial" rel="stylesheet">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -14,12 +14,12 @@
     <meta name="twitter:site" content="@chrisrhymes" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image | replace: 'http:', 'https:' }}{% else %}{{ site.image }}{% endif %}" />
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ page.image | replace: 'http:', 'https:' }}{% else %}{{ site.image }}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:site_name" content="csrhymes.com">
     
