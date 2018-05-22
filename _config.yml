@@ -30,4 +30,4 @@ collections:
   stories:
     output: true
 
-exclude: [node_modules, gulpfile.js]
+exclude: [node_modules, gulpfile.js, vendor]

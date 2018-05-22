@@ -3,6 +3,7 @@ layout: default
 title: Welcome
 permalink: /
 image: http://www.csrhymes.com/img/about-hero.jpg
+description: I'm a full time web developer and a part time author, making effective, modern websites
 ---
 
 <section class="hero is-fullheight is-primary"
@@ -68,16 +69,24 @@ image: http://www.csrhymes.com/img/about-hero.jpg
             <h2 class="title has-text-centered">Latest Blog Post</h2>
 
             {% for post in site.posts limit:1 %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
-            </a>
-            {% if post.image %}<img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>{% endif %}
-            <div class="has-text-centered">
-                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
-                {{ post.excerpt }}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">
-                    Read more...
-                </a>
+            <div class="columns is-multiline">
+                {% if post.image %}
+                <div class="column">
+                    <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>
+                </div>
+                {% endif %}
+                <div class="column">
+                    <div class="has-text-centered">
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
+                        </a>
+                        <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                        {{ post.excerpt }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">
+                            Read more...
+                        </a>
+                    </div> 
+                </div>
             </div>
             {% endfor %}
         </div>

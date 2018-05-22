@@ -12,12 +12,12 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@chrisrhymes" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | C.S. Rhymes | Web Developer and Author" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:image" content="{% if page.image %}{{ page.image | replace: 'http:', 'https:' }}{% else %}{{ site.image }}{% endif %}" />
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | C.S. Rhymes | Web Developer and Author">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{% if page.image %}{{ page.image | replace: 'http:', 'https:' }}{% else %}{{ site.image }}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
