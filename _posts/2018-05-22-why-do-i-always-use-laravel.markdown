@@ -22,7 +22,7 @@ The second reason I use Laravel is the MVC methodology it uses. I have been work
 
 Learning Laravel helped me write better code. I’m still learning but compared to the way I used to write code, it's so much easier to understand and maintain than it used to be. 
 
-I do a lot of work with WordPress and it annoys the hell out of me, especially after using blade templating language where all you need to write is `{{ $variable }}` rather than `<?php echo $variable; ?>`. I really dislike writing <?php tags for some reason. 
+I do a lot of work with WordPress and it annoys the hell out of me, especially after using blade templating language where all you need to write is {% raw %} {{ $variable }} {% endraw %} rather than `<?php echo $variable; ?>`. I really dislike writing <?php tags for some reason. 
 
 But the biggest issue I have with WordPress is the fact you are using functions everywhere, but you have no idea where the function comes from. There are no classes or namespaces, it's just `<?php the_title(); ?>`, which may be fine for a beginner, but there is no way of altering what that function does. You can’t extend that method and improve it for your own purposes, you are stuck with it. 
 
