@@ -93,3 +93,27 @@ description: I'm a full time web developer and a part time author, making effect
     </div>
 
 </section>
+<div class="container">
+    <section class="section">
+        <div class="columns is-multiline">
+            <div class="column">
+                <div class="content">
+                    <h2 class="has-text-centered">Latest Story</h2>
+                </div>
+            </div>
+            {% for item in site.stories limit:1 %}
+            <div class="column is-12">
+                <div class="content has-text-centered">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.excerpt }}</p>
+                </div>
+                <div class="has-text-centered">
+                    <a href="{{ item.url }}" class="button is-info">Read Story</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+            
+    </section>
+</div>
+
