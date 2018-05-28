@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
+<section class="hero is-medium is-primary" style="background: url('/img/post-hero.jpg') no-repeat center center; background-size: cover;">
+	<div class="hero-body">
+		<div class="container">
+            <h1 class="title brand">{{ page.title }}</h1>
+            <h2 class="subtitle">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h2>
+		</div>
+	</div>
+</section>
 <div class="container">
-    <section class="section is-medium">
+    <section class="section">
         <div class="columns is-multiline">
             <div class="column is-12 has-text-centered">
-
-                <h1 class="brand">{{ page.title }}</h1>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{%
-                    if page.meta %} • {{ page.meta }}{% endif %}</p>
                 <p><strong>Share: </strong></p>
                 <div class="addthis_inline_share_toolbox"></div>
-                
                 <div class="has-text-centered">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- Post ads -->
