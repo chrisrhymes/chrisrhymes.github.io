@@ -13,10 +13,10 @@
   <div class="navbar-menu" id="topNav">
     <div class="navbar-end">
       {% assign: sorted-nav = site.pages | sort: "order" %}
-      {% for page in sorted-nav %}
-      {% if page.layout == 'page' %}
-        <a class="navbar-item" href="{{ page.url | prepend: site.baseurl}}" title="{{ page.title }}">
-          {{ page.title }}
+      {% for item in sorted-nav %}
+      {% if item.layout == 'page' %}
+        <a class="navbar-item {% if item.url == page.url %} is-active {% endif %}" href="{{ item.url | prepend: site.baseurl}}" title="{{ item.title }}" >
+          {{ item.title }}
         </a>
       {% endif %}
       {% endfor %}
