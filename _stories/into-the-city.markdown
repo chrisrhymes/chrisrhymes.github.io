@@ -1,7 +1,7 @@
 ---
 layout: story
 title: Into the city
-description: "A day out in the city"
+description: "A day out in the city, travelling from the small town"
 ---
 
 He had been looking forward to this day for weeks, the trip into the city. Travelling from his tiny little town into the bright lights of the city. He liked where he lived. It was quiet, it was safe, but he could walk from one side of town to the other in around 30 minutes, as he had done many times in the past. 
