@@ -6,5 +6,7 @@
   link: sites
 - name: Stories
   link: stories
+- name: About
+  link: about
 - name: Blog
   link: blog
