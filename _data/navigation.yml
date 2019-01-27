@@ -1,0 +1,10 @@
+- name: Books
+  link: books
+- name: Projects
+  link: projects
+- name: Sites
+  link: sites
+- name: Stories
+  link: stories
+- name: Blog
+  link: blog
