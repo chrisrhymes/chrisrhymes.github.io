@@ -12,13 +12,13 @@ hero_height: is-fullheight
 ---
 
 
-<div class="columns is-multiline is-mobile">
+<div class="columns is-multiline is-mobile is-centered">
 
-    <div class="column is-2-desktop is-offset-1-desktop is-4-tablet is-6-mobile is-offset-3-mobile">
+    <div class="column is-2-desktop  is-4-tablet is-6-mobile is-offset-3-mobile">
         <img src="/img/sketch.jpg" width="100%" alt="Who am I?"/>
     </div>
 
-    <div class="column is-6-desktop is-6-tablet is-offset-1-desktop is-offset-1-tablet is-12-mobile content">
+    <div class="column is-6-desktop is-6-tablet is-12-mobile content">
         <h2 class="has-text-centered">Who am I?</h2>
         <p>Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author, based in Brackley, Northamptonshire.</p>
 
@@ -32,20 +32,20 @@ hero_height: is-fullheight
 </div>
 
 
-<section class="hero is-small is-primary">
+<section class="hero is-small is-white">
 
     <div class="hero-body">
         <div class="container">
             <h2 class="title has-text-centered">Latest Blog Post</h2>
 
             {% for post in site.posts limit:1 %}
-            <div class="columns is-multiline">
+            <div class="columns is-multiline is-centered">
                 {% if post.image %}
-                <div class="column">
+                <div class="column is-6-tablet is-6-desktop">
                     <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>
                 </div>
                 {% endif %}
-                <div class="column">
+                <div class="column is-6-tablet is-6-desktop">
                     <div class="has-text-centered">
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
@@ -65,14 +65,15 @@ hero_height: is-fullheight
 </section>
 <div class="container">
     <section class="section">
-        <div class="columns is-multiline">
-            <div class="column">
+        <div class="columns is-multiline is-centered">
+            <div class="column is-12">
                 <div class="content">
                     <h2 class="has-text-centered">Latest Story</h2>
                 </div>
             </div>
-            {% for item in site.stories limit:1 %}
-            <div class="column is-12">
+            {% assign stories = site.stories | reverse %}
+            {% for item in stories limit:1 %}
+            <div class="column is-8">
                 <div class="content has-text-centered">
                     <h3>{{ item.title }}</h3>
                     <p>{{ item.excerpt }}</p>
