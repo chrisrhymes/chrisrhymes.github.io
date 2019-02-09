@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: post
 title: Into the city
 description: "A day out in the city, travelling from the small town"
 ---

@@ -9,6 +9,9 @@ twitter_username: chrisrhymes
 github_username:  chrisrhymes
 image: https://csrhymes.com/img/csrhymeslogo.png
 
+theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
+
 # Pagination settings
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -19,7 +22,7 @@ markdown: kramdown
 #Syntax Highlighter
 #highlighter: rouge
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -31,3 +34,41 @@ collections:
     output: true
 
 exclude: [node_modules, gulpfile.js, vendor]
+
+google_analytics: UA-49024852-2
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "C.S. Rhymes"
+      layout: post
+      hero_image: /img/blog-hero.jpg
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "stories"
+    values:
+      author: "C.S. Rhymes"
+      layout: post
+      hero_image: /img/stories.jpg
+  
+
+# SEO
+author: 
+  twitter: chrisrhymes
+lang: en_GB
+twitter:
+  username: chrisrhymes
+  card: summary
+facebook:
+  publisher: https://www.facebook.com/CS-Rhymes-1423568567916115
+social:
+  name: C.S. Rhymes
+  links:
+    - https://www.twitter.com/chrisrhymes
+    - https://www.facebook.com/CS-Rhymes-1423568567916115
+    - https://github.com/chrisrhymes

@@ -1,72 +1,51 @@
 ---
 layout: default
-title: Welcome
+title: My Mission
+subtitle: |
+    Making effective, modern, responsive websites<br>
+    and helping others do the same!
 permalink: /
 image: http://www.csrhymes.com/img/about-hero.jpg
 description: I'm a full time web developer and a part time author, making effective, modern websites
+hero_image: /img/about-hero.jpg
+hero_height: is-fullheight
 ---
 
-<section class="hero is-fullheight is-primary"
-         style="background: url('/img/about-hero.jpg') no-repeat center center; background-size: cover;">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title brand">
-                My Mission
-            </h1>
-            <h2 class="subtitle">Making effective, modern, responsive websites <br>and helping others do the same!</h2>
-        </div>
+
+<div class="columns is-multiline is-mobile is-centered">
+
+    <div class="column is-2-desktop  is-4-tablet is-6-mobile is-offset-3-mobile">
+        <img src="/img/sketch.jpg" width="100%" alt="Who am I?"/>
     </div>
-    <div class="hero-foot">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-2-desktop is-offset-10-desktop is-3-tablet is-offset-9-tablet is-6-mobile is-offset-6-mobile">
-                    <div class="has-text-right">
-                        <a href="https://bulma.io">
-                            <img src="/img/made-with-bulma--semiwhite.png" alt="Made with Bulma" width="128px" height="24px">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <div class="column is-6-desktop is-6-tablet is-12-mobile content">
+        <h2 class="has-text-centered">Who am I?</h2>
+        <p>Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author, based in Brackley, Northamptonshire.</p>
+
+        <p>I have over ten years experience of web development, from backend php coding specialising in Laravel, to frontend HTML, CSS, Sass &amp; JavaScript, to server configuration and Linux commands.</p>
+
+        <p>Web development is great. I really enjoy being able to release my creativity and solve challenges. This creativity then led me into writing. I've written a couple of <a href="/books/" title="Check out my books">books</a> that are available on the Amazon Kindle store. Everyone needs a side project!</p>
+
+        <p>I write a <a href="/blog/" title="Check out my blog">blog</a> on this site as well as writing on <a href="https://medium.com/@chrisrhymes" title="Medium.com">Medium.com</a> with technology, web and other random topics, so make sure you check it out too.</p>
     </div>
-</section>
-<div class="container">
-    <section class="section">
-        <div class="columns is-multiline is-mobile">
 
-            <div class="column is-2-desktop is-offset-1-desktop is-4-tablet is-6-mobile is-offset-3-mobile">
-                <img src="/img/sketch.jpg" width="100%" alt="Who am I?"/>
-            </div>
-
-            <div class="column is-6-desktop is-6-tablet is-offset-1-desktop is-offset-1-tablet is-12-mobile content">
-                <h2 class="has-text-centered">Who am I?</h2>
-                <p>Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author, based in Brackley, Northamptonshire.</p>
-
-                <p>I have over ten years experience of web development, from backend php coding specialising in Laravel, to frontend HTML, CSS, Sass &amp; JavaScript, to server configuration and Linux commands.</p>
-
-                <p>Web development is great. I really enjoy being able to release my creativity and solve challenges. This creativity then led me into writing. I've written a couple of <a href="/books/" title="Check out my books">books</a> that are available on the Amazon Kindle store. Everyone needs a side project!</p>
-
-                <p>I write a <a href="/blog/" title="Check out my blog">blog</a> on this site as well as writing on <a href="https://medium.com/@chrisrhymes" title="Medium.com">Medium.com</a> with technology, web and other random topics, so make sure you check it out too.</p>
-            </div>
-
-        </div>
-    </section>
 </div>
 
-<section class="hero is-small is-primary">
+
+<section class="hero is-small is-white">
 
     <div class="hero-body">
         <div class="container">
             <h2 class="title has-text-centered">Latest Blog Post</h2>
 
             {% for post in site.posts limit:1 %}
-            <div class="columns is-multiline">
+            <div class="columns is-multiline is-centered">
                 {% if post.image %}
-                <div class="column">
+                <div class="column is-6-tablet is-6-desktop">
                     <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>
                 </div>
                 {% endif %}
-                <div class="column">
+                <div class="column is-6-tablet is-6-desktop">
                     <div class="has-text-centered">
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
@@ -86,14 +65,15 @@ description: I'm a full time web developer and a part time author, making effect
 </section>
 <div class="container">
     <section class="section">
-        <div class="columns is-multiline">
-            <div class="column">
+        <div class="columns is-multiline is-centered">
+            <div class="column is-12">
                 <div class="content">
                     <h2 class="has-text-centered">Latest Story</h2>
                 </div>
             </div>
-            {% for item in site.stories limit:1 %}
-            <div class="column is-12">
+            {% assign stories = site.stories | reverse %}
+            {% for item in stories limit:1 %}
+            <div class="column is-8">
                 <div class="content has-text-centered">
                     <h3>{{ item.title }}</h3>
                     <p>{{ item.excerpt }}</p>
