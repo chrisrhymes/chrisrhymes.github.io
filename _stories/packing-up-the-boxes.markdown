@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: Packing up the boxes
 description: "...there was still so much to do."
 ---

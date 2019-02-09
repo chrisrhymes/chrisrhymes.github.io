@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <h1 class="brand">C.S. Rhymes</h1>
+    </a>
+    <div class="navbar-burger burger" data-target="navMenubd-example" id="menuButton">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="navbar-menu" id="topNav">
+    <div class="navbar-end">
+      {% assign: sorted-nav = site.pages | sort: "order" %}
+      {% for item in sorted-nav %}
+      {% if item.layout == 'page' %}
+        <a class="navbar-item {% if item.url == page.url %} is-active {% endif %}" href="{{ item.url | prepend: site.baseurl}}" title="{{ item.title }}" >
+          {{ item.title }}
+        </a>
+      {% endif %}
+      {% endfor %}
+      <a class="navbar-item" href="/blog/" title="Blog">Blog</a>
+    </div>
+  </div>
+</nav>
+<div class="content-spacer"></div>
