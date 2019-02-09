@@ -1,0 +1,23 @@
+@import 'variables';
+
+@import '../node_modules/bulma/bulma';
+
+@import 'navigation';
+@import 'code';
+
+.content-spacer {
+  @include touch {
+    padding: 1.5rem 0;
+  }
+}
+
+.blog-content {
+  p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.has-shadow {
+  box-shadow: 5px 5px 20px rgba($dark, 0.5);
+}

@@ -1,0 +1,31 @@
+@import '../node_modules/bulma/sass/utilities/initial-variables';
+
+$primary: #333333;
+$info: #971427;
+$white: #ffffff;
+$dark: #333333;
+$grey: #ccc;
+
+$brand-font: 'Pacifico', sans-serif;
+
+$family-sans-serif: 'Questrial', sans-serif;
+$font-family: $family-sans-serif;
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+blockquote {
+  font-family: $brand-font;
+  font-size: 1.5rem;
+}
+
+.hero {
+  .subtitle, .title {
+    text-shadow: 1px 1px 0 $dark;
+  }
+}
+
+// Navbar
+$navbar-item-active-background-color: $white-ter;

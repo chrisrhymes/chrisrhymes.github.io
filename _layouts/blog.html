@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <section class="hero is-medium is-primary" style="background: url('/img/blog-hero.jpg') no-repeat center center; background-size: cover;">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title brand">Blog</h1>
+            </div>
+        </div>
+
+    </section>
+    <div class="container">
+        <section class="section">
+            <div class="columns is-multiline">
+                <div class="column is-12">
+
+                    <!-- Pagination links -->
+                    <nav class="pagination is-centered">
+                        {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path }}" class="pagination-previous is-info">Previous</a>
+                        {% else %}
+                        <p class="pagination-previous" disabled>Previous</p>
+                        {% endif %}
+                        {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path }}" class="pagination-next is-info">Next</a>
+                        {% else %}
+                        <p class="pagination-next" disabled >Next</p>
+                        {% endif %}
+                        <ul class="pagination-list">
+                            {% for page in (1..paginator.total_pages) %}
+                            {% if page == paginator.page %}
+                            <li><a class="pagination-link is-current">{{ page }}</a></li>
+                            {% elsif page == 1 %}
+                            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-link">{{ page }}</a></li>
+                            {% else %}
+                            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+                <div class="column is-12">
+
+                    {% for post in paginator.posts %}
+                    <div class="{% cycle 'notification is-primary', 'notification' %}">
+                        <div class="columns is-multiline">
+                            {% if post.image %}
+                            <div class="column">
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>
+                                </a>
+                            </div>
+                            {% endif %}
+                            <div class="column">
+                                <div class="has-text-centered content">
+                                    <a href="{{ post.url | prepend: site.baseurl }}">
+                                        <h2 class="title">{{ post.title }}</h2>
+                                    </a>
+                                    <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                                    <p><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a></p>
+                                    {{ post.excerpt }}
+                                    <div class="has-text-centered">
+                                        <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">Read more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="column is-12">
+
+                    <!-- Pagination links -->
+                    <nav class="pagination is-centered">
+                        {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path }}" class="pagination-previous is-info">Previous</a>
+                        {% else %}
+                        <p class="pagination-previous" disabled>Previous</p>
+                        {% endif %}
+                        {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path }}" class="pagination-next is-info">Next</a>
+                        {% else %}
+                        <p class="pagination-next" disabled >Next</p>
+                        {% endif %}
+                        <ul class="pagination-list">
+                            {% for page in (1..paginator.total_pages) %}
+                            {% if page == paginator.page %}
+                            <li><a class="pagination-link is-current">{{ page }}</a></li>
+                            {% elsif page == 1 %}
+                            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-link">{{ page }}</a></li>
+                            {% else %}
+                            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="column is-12">
+                    <div class="content has-text-centered">
+                        <a href="/feed.xml" class="button is-info">Subscribe via RSS</a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    </div>
+
+
+    {% include footer.html %}
+    <script type="text/javascript" src="/js/main.js" async></script>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'csrhymes'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+  </body>
+
+</html>
