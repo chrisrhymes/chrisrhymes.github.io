@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: post
 title: The first gig
 description: "Music is magic, it generates emotions"
 ---
