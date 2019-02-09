@@ -1,3 +1,2 @@
 source 'https://rubygems.org'
-gem 'github-pages', '104', group: :jekyll_plugins
-gem 'jekyll-sitemap'
+gem "bulma-clean-theme",  '>=0.2'
