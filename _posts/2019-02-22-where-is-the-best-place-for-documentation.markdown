@@ -2,10 +2,13 @@
 layout: post
 title:  "Where is the best place to put your project documentation?"
 date:   2019-02-22 21:00:07
-categories: development, web development, documentation
+categories: development web development documentation
 description: "If you want someone else to use it you probably want to spend a decent amount of time on the documentation"
 image: 'https://www.csrhymes.com/img/writing-documentation.jpg'
+hero_image: /img/writing-documentation.jpg
+hero_height: is-large
 published: true
+tags: webdev documentation
 ---
 
 Making a project, library or package sometimes seems like the hard part, but if you want someone else to use it you probably want to spend a decent amount of time on the documentation to help others get started using your package. People won’t know how to use a feature if you don’t even take the time to write about it as they won’t even know it is there. 
