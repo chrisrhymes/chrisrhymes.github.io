@@ -14,7 +14,7 @@ hero_height: is-fullheight
 
 <div class="columns is-multiline is-mobile is-centered">
 
-    <div class="column is-2-desktop  is-4-tablet is-6-mobile is-offset-3-mobile">
+    <div class="column is-2-desktop  is-4-tablet is-6-mobile">
         <img src="/img/sketch.jpg" width="100%" alt="Who am I?"/>
     </div>
 
@@ -28,24 +28,17 @@ hero_height: is-fullheight
 
         <p>I write a <a href="/blog/" title="Check out my blog">blog</a> on this site as well as writing on <a href="https://medium.com/@chrisrhymes" title="Medium.com">Medium.com</a> with technology, web and other random topics, so make sure you check it out too.</p>
     </div>
-
 </div>
 
 
-<section class="hero is-small is-white">
+{% for post in site.posts limit:1 %}
+<section class="hero is-small is-dark" {% if post.image %} style="background: url('{{ post.image | replace: 'http:', 'https:' }}') center center no-repeat / cover; background-attachment: fixed;" {% endif %}>
 
-    <div class="hero-body">
-        <div class="container">
+    <div class="hero-body" style="background: rgba(51, 51, 51, 0.2);">
+
             <h2 class="title has-text-centered">Latest Blog Post</h2>
-
-            {% for post in site.posts limit:1 %}
             <div class="columns is-multiline is-centered">
-                {% if post.image %}
-                <div class="column is-6-tablet is-6-desktop">
-                    <img src="{{ post.image | replace: 'http:', 'https:' }}" alt="{{ post.title }}"/>
-                </div>
-                {% endif %}
-                <div class="column is-6-tablet is-6-desktop">
+                <div class="column is-8-tablet is-8-desktop">
                     <div class="has-text-centered">
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <h3 class="subtitle has-text-centered">{{ post.title }}</h3>
@@ -58,33 +51,31 @@ hero_height: is-fullheight
                     </div> 
                 </div>
             </div>
-            {% endfor %}
-        </div>
     </div>
-
 </section>
-<div class="container">
-    <section class="section">
-        <div class="columns is-multiline is-centered">
-            <div class="column is-12">
-                <div class="content">
-                    <h2 class="has-text-centered">Latest Story</h2>
-                </div>
+{% endfor %}
+
+<section class="section">
+    <div class="columns is-multiline is-centered">
+        <div class="column is-12">
+            <div class="content">
+                <h2 class="has-text-centered">Latest Story</h2>
             </div>
-            {% assign stories = site.stories | reverse %}
-            {% for item in stories limit:1 %}
-            <div class="column is-8">
-                <div class="content has-text-centered">
-                    <h3>{{ item.title }}</h3>
-                    <p>{{ item.excerpt }}</p>
-                </div>
-                <div class="has-text-centered">
-                    <a href="{{ item.url }}" class="button is-info">Read Story</a>
-                </div>
-            </div>
-            {% endfor %}
         </div>
-            
-    </section>
-</div>
+        {% assign stories = site.stories | reverse %}
+        {% for item in stories limit:1 %}
+        <div class="column is-8">
+            <div class="content has-text-centered">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.excerpt }}</p>
+            </div>
+            <div class="has-text-centered">
+                <a href="{{ item.url }}" class="button is-info">Read Story</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+        
+</section>
+
 
