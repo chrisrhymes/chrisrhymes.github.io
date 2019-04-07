@@ -6,8 +6,12 @@
     {% include hero.html %}
     <section class="section">
         <div class="container">
-            <div class="columns is-multiline">
+            <div class="columns">
+                {% if site.posts and page.show_sidebar %}
+                <div class="column is-8-desktop is-12-tablet">
+                {% else %}
                 <div class="column">
+                {% endif %}
                     <div class="content">
                         {{ content }}
                     </div>

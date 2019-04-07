@@ -21,7 +21,7 @@ paginate_path: "/blog/page:num"
 markdown: kramdown
 
 #Syntax Highlighter
-#highlighter: rouge
+highlighter: rouge
 
 plugins:
   - jekyll-sitemap

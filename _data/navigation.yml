@@ -1,5 +1,10 @@
 - name: Books
   link: /books/
+  dropdown:
+    - name: How NOT to make a Website
+      link: /books/how-not-to-make-a-website
+    - name: How NOT to use a Smartphone
+      link: /books/how-not-to-use-a-smartphone
 - name: Projects
   link: /projects/
 - name: Sites

@@ -68,7 +68,7 @@ Posts are created as per the standard Jekyll method, in a _posts directory, with
 
 For the blog homepage, create a blog.html page with `layout: blog` and use the other settings from a normal page. The theme is set up to use jekyll-paginate so you just need to add pagination options to your _config.yml
 
-```
+```yml
 # Pagination settings
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -78,7 +78,7 @@ paginate_path: "/blog/page:num"
 
 If you don't want to set each hero_image individually, then you can set default values in your _config.yml. The below example sets a default author, layout and hero image for every post. It also turns on the side bar on the right of post pages, which will display links to your latest posts. 
 
-```
+```yml
 defaults:
   -
     scope:
