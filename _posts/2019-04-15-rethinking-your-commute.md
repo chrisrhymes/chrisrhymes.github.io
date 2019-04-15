@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rethinkning your commute"
+title:  "Rethinking your commute"
 subtitle: Some hints and tips
 date:   2019-04-15 08:00:07
 description: "I started thinking about what I could do to make my commute more enjoyable"
