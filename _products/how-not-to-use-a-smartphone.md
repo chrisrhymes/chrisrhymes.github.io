@@ -1,12 +1,21 @@
 ---
 title: How NOT to use a Smartphone
 subtitle: By C.S. Rhymes
-layout: page
+product_code: B00MVB5JOS
+layout: product
+image: /img/how-not-to-use-a-smartphone-4by3.jpg
+price: £0.99
+features:
+    - label: Smartphone operating systems
+      icon: fa-mobile-alt
+    - label: Apps
+      icon: fa-mobile-alt
+    - label: Common touch screen actions
+      icon: fa-mobile-alt
+rating: 4
+redirect_from: 
+    - /books/how-not-to-use-a-smartphone
 ---
-
-<div class="has-text-centered">
-<img alt="How NOT to use a smartphone book cover" src="/img/how-not-to-use-a-smartphone-bg2.jpg" />
-</div>
 
 My second book was insired by my friends and family, asking very similar questions about smartphones and the differences between them. 
 

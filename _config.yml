@@ -26,6 +26,7 @@ highlighter: rouge
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-redirect-from
 
 sass:
   style: compressed
@@ -33,6 +34,10 @@ sass:
 collections:
   stories:
     output: true
+  products: 
+    output: true
+    layout: product
+    show_sidebar: false
 
 exclude: [node_modules, gulpfile.js, vendor]
 
