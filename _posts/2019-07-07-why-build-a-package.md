@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why build a package?"
-date:   2019-07-08 08:00:07
+date:   2019-06-08 08:00:07
 description: "Creating you project can seem like the difficult part, but letting people know its there can be even harder"
 image: '/img/why-build-a-package.jpg'
 hero_image: /img/why-build-a-package.jpg
