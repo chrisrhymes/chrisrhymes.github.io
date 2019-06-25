@@ -1,0 +1,8 @@
+- name: Books
+  link: /books/
+- name: Stories
+  link: /stories/
+- name: About
+  link: /about/
+- name: Blog
+  link: /blog/
