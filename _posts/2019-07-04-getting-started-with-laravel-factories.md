@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting started with Laravel factories"
 date:   2019-07-04 19:00:07
-description: ""
+description: "If you want to start writing some tests for your Laravel project then chances are you will need to write some factories at some point"
 image: '/img/laravel-factories.jpg'
 hero_image: /img/laravel-factories.jpg
 hero_height: is-large
