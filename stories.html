@@ -18,12 +18,11 @@ hero_image: /img/stories.jpg
             {% for item in site.stories %}
             <div class="column is-4">
                 <div class="card">
-                    <div class="card-header">
-                        <p class="card-header-title">
-                            {{ item.title }}
-                        </p>
+                    <div class="card-image">
+                        <img src="{{ item.hero_image }}" alt="{{ item.title }}" />
                     </div>
                     <div class="card-content">
+                            <p class="title is-5">{{ item.title }}</p>
                         <div class="content">
                             <p>{{ item.description }}</p>
                         </div>

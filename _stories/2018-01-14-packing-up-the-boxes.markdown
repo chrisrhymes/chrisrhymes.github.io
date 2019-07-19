@@ -2,6 +2,8 @@
 layout: post
 title: Packing up the boxes
 description: "...there was still so much to do."
+hero_image: /img/packing-up-the-boxes.jpg
+hero_height: is-large
 ---
 
 The tape was on the side next to the scissors. The tape was running low but there was still so much to do. 

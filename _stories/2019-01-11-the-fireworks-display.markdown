@@ -1,7 +1,9 @@
 ---
-layout: story
+layout: post
 title: The fireworks display
 description: "It was a cold clear night outside, perfect for a fireworks display"
+hero_image: /img/the-fireworks.jpg
+hero_height: is-large
 ---
 
 The old man looked at his clock on the wall. It was time to get going. He stood up slowly from his comfortable chair, taking his time as he always did, before walking over to his front porch and grabbing his coat and putting it on. He did up his coat and took out his hat and gloves from the pockets before putting them on too.

@@ -2,6 +2,8 @@
 layout: post
 title: The power cut
 description: "Just before he clicked the link the screen went blank"
+hero_image: /img/the-power-cut.jpg
+hero_height: is-large
 ---
 
 It was just another day, like most days, following the same routine. Nothing seemed special about it, but nothing strange either. The drive to work was the same with the traffic in the same places as usual. The car park had the same cars parked in their normal spaces. There weren’t reserved spaces but people parked in the same space out of habit. 
