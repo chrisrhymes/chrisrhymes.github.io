@@ -12,6 +12,7 @@ image: https://csrhymes.com/img/csrhymeslogo.png
 
 remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
+google_analytics: UA-49024852-2
 
 # Pagination settings
 paginate: 5
@@ -40,8 +41,6 @@ collections:
     show_sidebar: false
 
 exclude: [node_modules, gulpfile.js, vendor]
-
-google_analytics: UA-49024852-2
 
 footer_menu: footer_menu
 
