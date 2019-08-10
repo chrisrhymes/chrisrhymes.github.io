@@ -13,6 +13,7 @@ image: https://csrhymes.com/img/csrhymeslogo.png
 remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
 google_analytics: UA-49024852-2
+livereload: true
 
 # Pagination settings
 paginate: 5
@@ -70,7 +71,7 @@ author:
 lang: en_GB
 twitter:
   username: chrisrhymes
-  card: summary
+  card: summary_large_image
 facebook:
   publisher: https://www.facebook.com/CS-Rhymes-1423568567916115
 social:
