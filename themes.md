@@ -7,5 +7,5 @@ hero_image: /img/about-hero.jpg
 image: https://www.csrhymes.com/img/about-hero.jpg
 showcase: themes_showcase
 sidebar: false
-permalink: /themes/
+permalink: /themes
 ---
