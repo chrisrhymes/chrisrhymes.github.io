@@ -1,5 +1,7 @@
 - name: Books
   link: /books/
+- name: Themes
+  link: /themes/
 - name: Stories
   link: /stories/
 - name: About
