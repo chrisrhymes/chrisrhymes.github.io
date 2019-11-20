@@ -20,6 +20,7 @@ items:
     link: https://github.com/chrisrhymes/bulma-clean-theme
     link_text: View Theme
     tags: Jekyll,Bulma,CSS
+    github: chrisrhymes/bulma-clean-theme
   - title: Mere Blog Theme
     subtitle: A minimal blog theme
     description: |-
@@ -37,3 +38,4 @@ items:
     link: https://github.com/chrisrhymes/mere-blog-theme
     link_text: View Theme
     tags: Jekyll,Bulma,CSS
+    github: chrisrhymes/mere-blog-theme
