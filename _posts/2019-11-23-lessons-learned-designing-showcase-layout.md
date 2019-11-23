@@ -10,7 +10,7 @@ published: true
 tags: webdesign webdev career beginners
 ---
 
-I was thinking about what features I could add to my Jekyll theme and it occured to me that I didn’t really promote my theme very well on my own website. As my website uses Bulma Clean Theme it gave me a good opportunity to create a new feature for my theme, that I could end up using to promote my theme. A bit of a win, win situation. 
+I was thinking about what features I could add to my [Jekyll theme](http://www.csrhymes.com/bulma-clean-theme/) and it occured to me that I didn’t really promote my theme very well on my own website. As my website uses Bulma Clean Theme it gave me a good opportunity to create a new feature for my theme, that I could end up using to promote my theme. A bit of a win, win situation. 
 
 If you had seen one of my [previous posts on dev.to](https://dev.to/chrisrhymes/web-design-advice-please-showcase-theme-2hoe), I had started creating a whole theme that could be used to showcase your work. I had put a lot of work into the layout and had written a lot of custom css, but if I was honest with myself, it just looked very busy. 
 
@@ -76,7 +76,7 @@ Tags are nice and simple to use, just a div or a span with the class tag. If you
 
 ## End Result
 
-I looked at what I had just created and realised that there was very minimal custom css for this layout. My old showcase theme had a lot of custom css and looked very busy. This new layout was much simpler, had taken much less time to build and the end result was much better. 
+I looked at what I had just created and realised that there was very minimal custom css for this layout. My old showcase theme had a lot of custom css and looked very busy. This new [showcase](http://www.csrhymes.com/bulma-clean-theme/showcase/) layout was much simpler, had taken much less time to build and the end result was much better. 
 
 I guess what I have learnt from this process is that using a content first approach allowed me to create a better result than trying to start with a layout and then trying to force the content to fit the design. 
 
