@@ -14,10 +14,17 @@ remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
 google_analytics: UA-49024852-2
 livereload: true
+favicon: /favicon.ico
 
 # Pagination settings
 paginate: 5
 paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: csrhymes
 
 # Build settings
 markdown: kramdown

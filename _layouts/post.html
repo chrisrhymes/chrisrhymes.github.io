@@ -27,7 +27,6 @@ layout: default
     {% endfor %}
 </div>
 
-<div id="disqus_thread"></div>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- blog-post -->
@@ -42,17 +41,7 @@ layout: default
 </script>
 
 
-<script>
-var disqus_config = function () {
-this.page.url = "{{ page.url | prepend: site.url }}";  
-this.page.identifier = "{{ page.id }}"; 
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://csrhymes.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}
                             
