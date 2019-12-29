@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Eloquent Query Scopes in Laravel
-date: 2019-12-28 15:00:07
+date: 2019-12-29 15:00:07
 description: Getting started with Eloquent Query Scopes to simplify your queries and keep Controllers clean
 image: /img/using-eloquent-query-scopes.jpg
 hero_image: /img/using-eloquent-query-scopes.jpg
