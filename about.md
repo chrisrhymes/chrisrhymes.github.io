@@ -4,7 +4,7 @@ title: About
 order: 5
 permalink: /about/
 description: "Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author"
-image: http://csrhymes.com/img/books.jpg
+image: https://csrhymes.com/img/books.jpg
 hero_image: /img/about-hero.jpg
 toc: true
 show_sidebar: true

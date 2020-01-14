@@ -4,7 +4,7 @@ title: Books
 order: 1
 permalink: /books/
 description: "Find out more about the books written by author C.S. Rhymes, including How NOT to make a website"
-image: http://www.csrhymes.com/img/how-not-to-make-a-website-bg2.jpg
+image: https://www.csrhymes.com/img/how-not-to-make-a-website-bg2.jpg
 hero_image: /img/books-hero.jpg
 sort: title
 ---
