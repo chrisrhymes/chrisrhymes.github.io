@@ -6,7 +6,7 @@ layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg
 price: £4.99
 features:
-    - label: This book is aimed at website beginners, not developers
+    - label: This book is aimed at website beginners, as well as beginner developers
       icon: fa-book
     - label: Perfect for business owners and website owners
       icon: fa-book
