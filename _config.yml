@@ -8,7 +8,7 @@ url: https://www.csrhymes.com # the base hostname & protocol for your site
 twitter_username: chrisrhymes
 github_username:  chrisrhymes
 image: https://csrhymes.com/img/csrhymeslogo.png
-
+#gh_sponsor: chrisrhymes
 
 remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
