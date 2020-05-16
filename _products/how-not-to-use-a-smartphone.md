@@ -5,6 +5,10 @@ product_code: B00MVB5JOS
 layout: product
 image: /img/how-not-to-use-a-smartphone-4by3.jpg
 price: £0.99
+seo:
+  name: How NOT to use a Smartphone
+  type: book
+  author: C.S. Rhymes
 features:
     - label: Smartphone operating systems
       icon: fa-mobile-alt

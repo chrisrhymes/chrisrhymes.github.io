@@ -5,6 +5,10 @@ product_code: B00KEE3HES
 layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg
 price: £4.99
+seo:
+  name: How NOT to make a Website
+  type: book
+  author: C.S. Rhymes
 features:
     - label: This book is aimed at website beginners, as well as beginner developers
       icon: fa-book
