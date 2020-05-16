@@ -3,6 +3,7 @@ layout: post
 title: Into the city
 description: "A day out in the city, travelling from the small town"
 hero_image: /img/into-the-city.jpg
+image: /img/into-the-city.jpg
 hero_height: is-large
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: The fireworks display
 description: "It was a cold clear night outside, perfect for a fireworks display"
 hero_image: /img/the-fireworks.jpg
+image: /img/the-fireworks.jpg
 hero_height: is-large
 ---
 

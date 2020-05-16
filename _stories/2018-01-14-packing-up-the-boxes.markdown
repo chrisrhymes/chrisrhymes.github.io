@@ -3,6 +3,7 @@ layout: post
 title: Packing up the boxes
 description: "...there was still so much to do."
 hero_image: /img/packing-up-the-boxes.jpg
+image: /img/packing-up-the-boxes.jpg
 hero_height: is-large
 ---
 

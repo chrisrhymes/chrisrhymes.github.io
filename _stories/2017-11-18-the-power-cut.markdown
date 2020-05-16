@@ -3,6 +3,7 @@ layout: post
 title: The power cut
 description: "Just before he clicked the link the screen went blank"
 hero_image: /img/the-power-cut.jpg
+image: /img/the-power-cut.jpg
 hero_height: is-large
 ---
 

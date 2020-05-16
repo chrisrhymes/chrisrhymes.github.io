@@ -3,6 +3,7 @@ layout: post
 title: The first gig
 description: "Music is magic, it generates emotions"
 hero_image: /img/the-first-gig.jpg
+image: /img/the-first-gig.jpg
 hero_height: is-large
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: The holiday
 description: He finally told himself enough is enough. Time for a holiday. 
 hero_image: /img/the-holiday.jpg
+image: /img/the-holiday.jpg
 hero_height: is-large
 ---
 
