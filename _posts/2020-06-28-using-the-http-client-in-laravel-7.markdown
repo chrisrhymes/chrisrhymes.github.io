@@ -221,8 +221,8 @@ $users = $this->http->get('users')
 $user = new \App\Objects\User($users[0]);
 
 var_dump($user->id); // int(1)
-echo $user->name // string(13) "Leanne Graham"
-echo $user->address->street; // string(11) "Kulas Light"
+var_dump($user->name); // string(13) "Leanne Graham"
+var_dump($user->address->street); // string(11) "Kulas Light"
 ```
 
 Hopefully you can see the benefits Laravel Http Client and Spatie Data Transfer Object can bring to your application. 
