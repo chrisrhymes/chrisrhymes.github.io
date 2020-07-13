@@ -5,14 +5,19 @@
       link: /products/how-not-to-make-a-website
     - name: How NOT to use a Smartphone
       link: /products/how-not-to-use-a-smartphone
-- name: Themes
-  link: /themes
-- name: Projects
-  link: /projects/
-- name: Sites
-  link: /sites/
+- name: My Work
+  link: #
+  dropdown:
+    - name: Themes
+      link: /themes
+    - name: Projects
+      link: /projects/
+    - name: Sites
+      link: /sites/
 - name: Stories
   link: /stories/
+- name: Sponsors
+  link: /sponsors/
 - name: About
   link: /about/
 - name: Blog
