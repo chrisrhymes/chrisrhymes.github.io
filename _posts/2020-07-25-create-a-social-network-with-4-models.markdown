@@ -2,10 +2,10 @@
 layout: post
 title: Create a social network with 4 models
 description: The Eloquent relationships needed to create a social network in 4 models
-date: 2020-06-30 20:00:07
+date: 2020-07-25 16:00:07
 hero_image: /img/social-network-4-models.jpg
 hero_height: is-large
-hero_darken: false
+hero_darken: true
 image: /img/social-network-4-models.jpg
 tags: laravel eloquent database php
 ---
@@ -27,10 +27,6 @@ A post can have many replies or comments so you may think we need another model 
 * A post belongs to a user.
 * A post has many comments/replies.
 * A post can belong to another post 
-
-### Post Migration
-
-
 
 ## Follower
 
