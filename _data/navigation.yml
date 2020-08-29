@@ -1,6 +1,8 @@
 - name: Books
   link: /books/
   dropdown:
+    - name: Nigel's Intranet Adventure
+      link: /products/nigels-intranet-adventure
     - name: How NOT to make a Website
       link: /products/how-not-to-make-a-website
     - name: How NOT to use a Smartphone
