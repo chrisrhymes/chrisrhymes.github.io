@@ -39,3 +39,19 @@ items:
     link_text: View Theme
     tags: Jekyll,Bulma,CSS
     github: chrisrhymes/mere-blog-theme
+  - title: Purpletual Blog Theme
+    subtitle: A blog theme with added purple
+    description: |-
+      Purpletual blog theme is my first project built using TailwindCSS. It has a modern design with the focus on text, allowing you to concentrate on writing great content. 
+
+      Like my other themes it's powered by Jekyll so it's easy to get started writing posts straight away.
+    features:
+      - Responsive
+      - Lightweight
+      - Blog and post pages
+    image: /img/purpletual-blog-theme.jpg
+    image_ratio: is-16by9
+    link: https://github.com/chrisrhymes/purpletual-blog-theme
+    link_text: View Theme
+    tags: Jekyll,TailwindCSS,webdesign
+    github: chrisrhymes/purpletual-blog-theme
