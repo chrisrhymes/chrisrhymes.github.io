@@ -1,5 +1,14 @@
 intro:
 items:
+  - title: Mustang Sally
+    subtitle: Mustang LT Amp Tones
+    description: |-
+      A community site for Mustang LT Amp owners to share their own tones with other Mustang LT owners
+    image: /img/mustang-sally-3by2.jpg
+    image_ratio: is-3by2
+    link: https://www.csrhymes.com/mustang-sally/
+    link_text: View Site
+    tags: Jekyll,Bulma,Bulma Clean Theme
   - title: Brackley Routes
     subtitle: 
     description: |-
