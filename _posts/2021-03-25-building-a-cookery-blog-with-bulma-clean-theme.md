@@ -44,7 +44,7 @@ method:
 Then specify the additional information about your recipe, such as the prep time, cook time, keywords, etc. The times need to be in a specific format for the recipe schema which uses [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), basically P for period, T for time, 1H for one hour and 1M for one minute. 
 
 ```yaml
-prep_time: PT10M
+prep_time: PT0H10M
 cook_time: PT1H
 total_time: PT1H10M
 keywords: recipe,cooking
