@@ -4,7 +4,7 @@ subtitle: By C.S. Rhymes
 product_code: B00KEE3HES
 layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg
-price: £4.99
+price: From £8.99
 seo:
   name: How NOT to make a Website
   type: book
