@@ -36,5 +36,4 @@ My book "How NOT to make a website" is available from the Amazon Kindle store.
 <div class="buttons is-centered">
 <a href="https://www.amazon.co.uk/dp/B00KEE3HES" class="button is-info">Buy from Amazon UK</a>
 <a href="http://www.amazon.com/dp/B00KEE3HES" class="button is-info">Buy from Amazon USA</a>
-<a href="https://gum.co/DNuil" class="button is-info">Buy from Gumroad</a>
 </div>
