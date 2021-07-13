@@ -1,15 +1,5 @@
 intro: Below are some of my personal projects / demos I have worked on in the past
 items:
-  - title: Bulma Block List
-    subtitle: SCSS package available on npm
-    description: |-
-      A simple scss package extending Bulma with block style list elements.
-    image: /img/bulma-block-list.jpg
-    image_ratio: is-16by9
-    link: https://www.csrhymes.com/bulma-block-list/
-    link_text: View Examples
-    tags: Bulma,SCSS,HTML
-    github: chrisrhymes/bulma-block-list
   - title: Project Name Generator
     subtitle: Android App
     description: |-

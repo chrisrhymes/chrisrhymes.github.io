@@ -12,10 +12,12 @@
   dropdown:
     - name: Themes
       link: /themes
-    - name: Projects
-      link: /projects/
+    - name: Packages
+      link: /packages/
     - name: Sites
       link: /sites/
+    - name: Demos
+      link: /demos/
 - name: Stories
   link: /stories/
 - name: Sponsors
