@@ -12,6 +12,8 @@ tags: webdev Laravel testing factories
 
 If you want to start writing some tests for your Laravel project then chances are you will need to write some factories at some point. When I first heard the term factory I had no idea what it meant and what it did, let alone the benefits they can bring to your tests. 
 
+**Edit:** This article refers to factories up to and including Laravel 7. For information on refactoring to Laravel 8 factories, please check out this article: [Refactoring to Laravel 8 Class Model Factories]({% post_url 2021-07-20-refactoring-to-class-factories %})
+
 Imagine you have a controller for a product that has a store method to save a new product's details. A product might have a product code, title, price, description and a tagline which are all sent in the request to the store method. 
 
 If you wanted to test this endpoint you could create an array of properties and then send them in your post request. 
