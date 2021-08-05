@@ -21,13 +21,15 @@ redirect_from:
     - /books/how-not-to-use-a-smartphone
 ---
 
-My second book was insired by my friends and family, asking very similar questions about smartphones and the differences between them. 
+<div class="columns">
+<div class="column is-8">
+<p>My second book was insired by my friends and family, asking very similar questions about smartphones and the differences between them. </p>
 
-More importantly, I wanted to write a book about smartphones that was easy to understand, so even people who have never even picked up a smartphone, let alone used one, would be able to read it.
+<p>More importantly, I wanted to write a book about smartphones that was easy to understand, so even people who have never even picked up a smartphone, let alone used one, would be able to read it.</p>
 
-The book starts off with the differences between the main smartphone operating systems and then goes on to the common touch screen controls and the main functions, such as contacts and messaging. 
-
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B00MVB5JOS/" class="button is-info">Buy from Amazon UK</a>
-<a href="http://www.amazon.com/dp/B00MVB5JOS/" class="button is-info">Buy from Amazon USA</a>
+<p>The book starts off with the differences between the main smartphone operating systems and then goes on to the common touch screen controls and the main functions, such as contacts and messaging.</p> 
+</div>
+<div class="column is-4 has-text-centered">
+<iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.co.uk/kp/card?asin=B00MVB5JOS&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_99PK0VFGN2ZZR9HHGSF0&hideShare=true" ></iframe>
+</div>
 </div>
