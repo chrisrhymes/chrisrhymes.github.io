@@ -1,6 +1,7 @@
 ---
 title: Nigel's Intranet Adventure
 subtitle: By C.S. Rhymes
+description: My book "Nigel's Intranet Adventure" is available from the Amazon Kindle store.
 product_code: B08GTYPX2W
 layout: product
 image: /img/nigels-intranet-adventure-4by3.jpg

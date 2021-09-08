@@ -1,6 +1,7 @@
 ---
 title: How NOT to make a Website
 subtitle: By C.S. Rhymes
+description: My book "How NOT to make a website" is available from the Amazon Kindle store
 product_code: B00KEE3HES
 layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg

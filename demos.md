@@ -1,6 +1,7 @@
 ---
 title: Demos
 layout: page
+description: Check out my tech demos, showcasing my Web Development experience
 order: 2
 permalink: /demos/
 hero_image: /img/projects-hero.jpg
