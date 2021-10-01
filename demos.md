@@ -1,7 +1,7 @@
 ---
 title: Demos
 layout: page
-description: Check out my tech demos, showcasing my Web Development experience
+description: Check out my tech demos, showcasing my Web Development experience in HTML, CSS, JavaScript and PHP
 order: 2
 permalink: /demos/
 hero_image: /img/projects-hero.jpg
