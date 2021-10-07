@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: Time for work
 description: He checked his watch again, it was now 5 to 8. Five more minutes before he had to start work.
 hero_image: /img/rainbow.jpg

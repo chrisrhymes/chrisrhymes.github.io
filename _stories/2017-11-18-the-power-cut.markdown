@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: The power cut
 description: "Just before he clicked the link the screen went blank"
 hero_image: /img/the-power-cut.jpg

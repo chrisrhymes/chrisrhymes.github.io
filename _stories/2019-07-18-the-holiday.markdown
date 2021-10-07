@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: The holiday
 description: He finally told himself enough is enough. Time for a holiday. 
 hero_image: /img/the-holiday.jpg

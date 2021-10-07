@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: The fireworks display
 description: "It was a cold clear night outside, perfect for a fireworks display"
 hero_image: /img/the-fireworks.jpg
