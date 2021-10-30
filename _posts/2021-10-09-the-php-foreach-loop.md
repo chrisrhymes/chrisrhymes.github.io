@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: false
 image: /img/foreach-loop.jpg
 tags: PHP Beginner Code
+series: php_fundamentals_series
 ---
 
 An alternative to the for loop, the foreach loop is used to iterate or loop over an array. The foreach loop allows you to loop through the items in the array without setting a limit for it to stop like you do in a for loop. 

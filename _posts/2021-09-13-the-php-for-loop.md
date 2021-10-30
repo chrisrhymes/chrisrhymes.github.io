@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: false
 image: /img/for-loop.jpg
 tags: PHP Beginner Code
+series: php_fundamentals_series
 ---
 
 If you have something you want to repeat then consider using a PHP for loop, saving you from copying and pasting the same code multiple times. Adding the code into a loop means you only have to write it once, and you also only have to maintain the code in one place in future.

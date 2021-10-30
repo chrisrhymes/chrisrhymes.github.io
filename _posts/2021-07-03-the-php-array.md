@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: false
 image: /img/array.jpg
 tags: PHP Beginner Code
+series: php_fundamentals_series
 ---
 
 Arrays are a useful toolt to store multiple values. You can access a specific value in an array using a key. By default, if you don't specify keys, they will be numeric and start at zero (not one);

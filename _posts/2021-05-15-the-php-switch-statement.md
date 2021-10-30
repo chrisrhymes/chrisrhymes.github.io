@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: false
 image: /img/php-switch.jpg
 tags: PHP Code Beginner
+series: php_fundamentals_series
 ---
 
 In the previous article we discussed the if statement, where it said you can have many different elseif statements if you wanted to handle many different scenarios, but it gets to a point where you should consider swapping to a switch statement. 

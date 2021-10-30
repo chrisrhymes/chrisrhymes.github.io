@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: false
 image: /img/php-if.jpg
 tags: PHP Code Beginner
+series: php_fundamentals_series
 ---
 
 This is the first of a series of posts I will write that go back to basics and introduce the fundamentals of PHP. In this article I'm going to start with the PHP if statement. 
