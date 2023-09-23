@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://www.csrhymes.com # the base hostname & protocol for your site
 twitter_username: chrisrhymes
-github_username:  chrisrhymes
+github_username: chrisrhymes
 image: https://csrhymes.com/img/csrhymeslogo.png
 gh_sponsor: chrisrhymes
 
@@ -36,7 +36,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
-  - github-pages
+  - jekyll-remote-theme
 
 sass:
   style: compressed
@@ -44,18 +44,17 @@ sass:
 collections:
   stories:
     output: true
-  products: 
+  products:
     output: true
     layout: product
     show_sidebar: false
 
-exclude: [node_modules, gulpfile.js, vendor]
+exclude: [node_modules, gulpfile.js, vendor, .github]
 
 footer_menu: footer_menu
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -63,18 +62,16 @@ defaults:
       layout: post
       hero_image: /img/blog-hero.jpg
       show_sidebar: true
-  -
-    scope:
+  - scope:
       path: ""
       type: "stories"
     values:
       author: "C.S. Rhymes"
       layout: post
       hero_image: /img/stories.jpg
-  
 
 # SEO
-author: 
+author:
   twitter: chrisrhymes
 lang: en_GB
 logo: /img/avatar.png
