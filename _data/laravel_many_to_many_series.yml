@@ -1,0 +1,6 @@
+title: Laravel Many To Many Relationships
+description: This post is part of a series of posts about Laravel Eloquent many to many relationships.
+sections:
+  - items:
+      - title: Using Laravel Eloquent's Many to Many Relationship
+      - title: Querying Laravel Eloquent's Many to Many relationships

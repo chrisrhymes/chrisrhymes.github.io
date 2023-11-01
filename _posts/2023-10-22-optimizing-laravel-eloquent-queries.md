@@ -60,7 +60,7 @@ User::query()->with('roles:id,name')->get();
 
 ## Only getting the latest related record
 
-Let's say you have an audit table that records each time a user logs in. To get the latest audit you may try and use an existing relationship, such as User has many audits, then filtering them to get the latest item. Instead of doing this, Laravel haas a Has One Of Many relationship that you can use to always return the latest or oldest.
+Let's say you have an audit table that records each time a user logs in. To get the latest audit you may try and use an existing relationship, such as User has many audits, then filtering them to get the latest item. Instead of doing this, Laravel has a Has One Of Many relationship that you can use to always return the latest or oldest.
 
 ```php
 public function latestAudit()
