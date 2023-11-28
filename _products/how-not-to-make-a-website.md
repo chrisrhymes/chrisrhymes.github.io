@@ -5,26 +5,27 @@ description: My book "How NOT to make a website" is available from the Amazon Ki
 product_code: B00KEE3HES
 layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg
-price: From £8.99
+price: From £2.49
 seo:
   name: How NOT to make a Website
   type: book
   author: C.S. Rhymes
 features:
-    - label: This book is aimed at website beginners, as well as beginner developers
-      icon: fa-book
-    - label: Perfect for business owners and website owners
-      icon: fa-book
-    - label: Written in a non technical way with easy to understand examples
-      icon: fa-book
-    - label: Helps you understand how to make the right decisions when planning, designing and building your website
-      icon: fa-book
-    - label: Provides advice on improving user experience and getting your site found in search engines
-      icon: fa-book
+  - label: This book is aimed at website beginners, as well as beginner developers
+    icon: fa-book
+  - label: Perfect for business owners and website owners
+    icon: fa-book
+  - label: Written in a non technical way with easy to understand examples
+    icon: fa-book
+  - label: Helps you understand how to make the right decisions when planning, designing and building your website
+    icon: fa-book
+  - label: Provides advice on improving user experience and getting your site found in search engines
+    icon: fa-book
 rating: 5
-redirect_from: 
-    - /books/how-not-to-make-a-website
+redirect_from:
+  - /books/how-not-to-make-a-website
 ---
+
 <div class="columns">
 <div class="column is-8">
 <p>I was looking at the books on the Kindle Store and noticed that many of them had very similar titles, such as "10 ways to promote your site", or "Easy ways of getting to the top of search engines". </p>
