@@ -3,16 +3,14 @@
   description: |-
     Help me develop new packages and add new features to my themes by sponsoring me $5 a month and I will add your name as a sponsor on my website along with a link back to your GitHub profile page!
   sponsors:
-    - name: '@currentsauce'
-      profile: https://github.com/currentsauce
-    - name: '@scoy'
+    - name: "@scoy"
       profile: https://github.com/scoy
-    - name: '@casperdcl'
+    - name: "@casperdcl"
       profile: https://github.com/casperdcl
+    - name: "@cubikca"
+      profile: https://github.com/cubikca
 - tier_name: A coffee a quarter
   size: medium
   description: |-
     Help me develop new packages and add new features to my themes by buying me a coffee every quarter and I'll list your name on my sponsors page on my website.
   sponsors:
-    - name: '@cketti'
-    - name: '@DarthGandalf'
