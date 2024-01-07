@@ -17,7 +17,7 @@ seo:
   author: C.S. Rhymes
 ---
 
-A face paced crime mystery set in the fictional English village of Little-Astwick. David Morgan, a Community Support Officer, new to the area, gets plunged in at the deep end with a new acquaintance, Evelyn McKenzie, trying to figure out what has been going on at the village church.
+A fast paced crime mystery set in the fictional English village of Little-Astwick. David Morgan, a Community Support Officer, new to the area, gets plunged in at the deep end with a new acquaintance, Evelyn McKenzie, trying to figure out what has been going on at the village church.
 
 Whilst out walking her faithful dog, (Charlie), Evelyn noticed the church doors were open and signs of a disturbance inside. Follow the duo through their investigation around the village, in their attempts to solve the mystery of Little-Astwick.
 
