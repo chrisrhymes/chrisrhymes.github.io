@@ -1,6 +1,8 @@
 - name: Books
   link: /books/
   dropdown:
+    - name: Trouble at the church
+      link: /products/the-little-astwick-mysteries-trouble-at-the-church
     - name: Nigel's Intranet Adventure
       link: /products/nigels-intranet-adventure
     - name: How NOT to make a Website
