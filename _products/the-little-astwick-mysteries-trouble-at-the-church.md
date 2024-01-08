@@ -4,6 +4,8 @@ subtitle: By C.S. Rhymes
 description: My book "The Little-Astwick Mysteries - Trouble at the church" is available for pre-order from the Amazon Kindle store.
 product_code: B0CRQH4BYW
 layout: product
+hero_image: /img/church-16by9.jpg
+hero_darken: true
 image: /img/trouble-at-the-church-4by3.jpg
 price: From £2.99
 features:
