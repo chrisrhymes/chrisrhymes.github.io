@@ -5,7 +5,7 @@ description: My book "Nigel's Intranet Adventure" is available from the Amazon K
 product_code: B08GTYPX2W
 layout: product
 image: /img/nigels-intranet-adventure-4by3.jpg
-price: From £0.99
+price: From £2.99
 features:
   - label: Released 7th September 2020
     icon: fa-calendar-alt
