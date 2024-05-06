@@ -5,25 +5,19 @@ layout: default
 {% include carbon.html %}
 
 <div class="content">
+  <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
 
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
-    {% if page.series %}
-        {% include series.html %}
-    {% endif %}
-    
-    {{ content }}
+  {% if page.series %} {% include series.html %} {% endif %} {{ content }}
 </div>
 
-<div class="tags">
-    {% for tag in page.tags %}
-    <span class="tag is-primary">{{ tag }}</span>
-    {% endfor %}
+<div class="tags my-4">
+  {% for tag in page.tags %}
+  <span class="tag is-primary">{{ tag }}</span>
+  {% endfor %}
 </div>
 
-{% include share-buttons.html %}
+<div class="my-4">{% include share-buttons.html %}</div>
 
-{% if site.disqus.shortname %}
-  {% include disqus.html %}
-{% endif %}
-                            
+<div class="my-4">
+  {% if site.disqus.shortname %} {% include disqus.html %} {% endif %}
+</div>
