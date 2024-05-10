@@ -13,6 +13,7 @@ gh_sponsor: chrisrhymes
 remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
 google_analytics: G-E1X5P3GGHZ
+cookie_policy: /cookies/
 livereload: true
 favicon: /favicon.ico
 
