@@ -1,6 +1,6 @@
 _site
 Thumbs.db
-Gemfile.lock
+# Gemfile.lock
 /.idea
 /.sass-cache
 .DS_Store
