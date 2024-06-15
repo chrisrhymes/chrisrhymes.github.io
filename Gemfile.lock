@@ -77,10 +77,10 @@ GEM
       ffi (~> 1.0)
     rexml (3.3.0)
       strscan
-    rouge (4.2.1)
+    rouge (4.3.0)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.4)
+    sass-embedded (1.77.5)
       google-protobuf (>= 3.25, < 5.0)
       rake (>= 13)
     strscan (3.1.0)
@@ -99,4 +99,4 @@ DEPENDENCIES
   jekyll-remote-theme
 
 BUNDLED WITH
-   2.4.22
+   2.5.13
