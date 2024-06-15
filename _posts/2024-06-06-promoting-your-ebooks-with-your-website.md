@@ -7,6 +7,7 @@ hero_height: is-large
 hero_darken: true
 image: /img/books-hero.jpg
 tags: writing marketing books
+series: authors_series
 ---
 
 I'm a web developer by trade and a part-time author, so here are a few things that I have done to help promote my books and ebooks using my website and my tech know how from my day job.
