@@ -1,6 +1,8 @@
 - name: Books
   link: /books/
   dropdown:
+    - name: Unlooked for Tales
+      link: /products/unlooked-for-tales
     - name: Trouble at the church
       link: /products/the-little-astwick-mysteries-trouble-at-the-church
     - name: Nigel's Intranet Adventure
