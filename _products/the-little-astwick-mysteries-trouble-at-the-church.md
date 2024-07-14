@@ -7,7 +7,7 @@ layout: product
 hero_image: /img/church-16by9.jpg
 hero_darken: true
 image: /img/trouble-at-the-church-4by3.jpg
-price: From £2.99 or free on Kindle Unlimited!
+price: From £4.99 or free on Kindle Unlimited!
 features:
   - label: Released on the 1st February 2024
     icon: fa-calendar-alt
