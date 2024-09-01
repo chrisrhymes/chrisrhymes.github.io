@@ -92,3 +92,11 @@ social:
 feed:
   collections:
     - stories
+
+social:
+  facebook: https://www.facebook.com/csrhymesauthor
+  instagram: https://www.instagram.com/chrisrhymes
+  threads: https://www.threads.net/@chrisrhymes
+  tiktok: https://www.tiktok.com/@csrhymes
+  # x: https://www.x.com/
+  youtube: https://www.youtube.com/@chrisrhymes
