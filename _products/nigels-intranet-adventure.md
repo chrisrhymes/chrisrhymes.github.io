@@ -5,7 +5,7 @@ description: My book "Nigel's Intranet Adventure" is a contemporary science fict
 product_code: B08GTYPX2W
 layout: product
 image: /img/nigels-intranet-adventure-4by3.jpg
-price: From £4.99 or free on Kindle Unlimited!
+price: From £3.99 or free on Kindle Unlimited!
 features:
   - label: Released 7th September 2020
     icon: fa-calendar-alt
