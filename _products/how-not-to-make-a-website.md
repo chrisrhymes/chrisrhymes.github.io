@@ -5,7 +5,7 @@ description: My book "How NOT to make a website" is available from the Amazon Ki
 product_code: B00KEE3HES
 layout: product
 image: /img/how-not-to-make-a-website-4by3.jpg
-price: From £5.49 or free on Kindle Unlimited!
+price: From £1.99 or free on Kindle Unlimited!
 seo:
   name: How NOT to make a Website
   type: book

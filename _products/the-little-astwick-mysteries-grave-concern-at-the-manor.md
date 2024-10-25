@@ -8,7 +8,7 @@ product_code: B0CXQ5KXBJ
 layout: product
 hero_darken: false
 image: /img/grave-concern-at-the-manor-4by3.jpg
-price: From £4.99 or free on Kindle Unlimited!
+price: From £1.99 or free on Kindle Unlimited!
 features:
   - label: Released on the 1st September 2024
     icon: fa-calendar-alt
