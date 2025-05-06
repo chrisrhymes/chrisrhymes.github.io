@@ -7,7 +7,7 @@ layout: product
 hero_image: /img/unlooked-for-tales-16by9.jpg
 hero_darken: true
 image: /img/unlooked-for-tales-cover-4by3.jpg
-price: From £0.99
+price: Free on selected platforms
 features:
   - label: Released on the 1st July 2024
     icon: fa-calendar-alt
@@ -28,7 +28,9 @@ When doing some research for what these very short stories should be called, I c
 This book is a collection of these sudden fiction stories that I have been writing since 2014 and published on my website. I have decided to bring them together in a collection for a new audience, but also added a new story that is exclusive to this collection.
 
 <div class="buttons is-centered">
+<a href="https://books.apple.com/gb/book/unlooked-for-tales/id6504717447" class="button is-info" target="_blank">Read for free on Apple Books</a>
+<a href="https://play.google.com/store/books/details/C_S_Rhymes_Unlooked_for_Tales?id=xsoSEQAAQBAJ&hl=en_GB" class="button is-info" target="_blank">Read for free on Google Play Books</a>
 <a href="https://www.amazon.co.uk/dp/B0D7SZ5WXS" class="button is-info" target="_blank">Buy from Amazon UK</a>
 <a href="https://www.amazon.com/dp/B0D7SZ5WXS" class="button is-info" target="_blank">Buy from Amazon USA</a>
-<a href="https://books.apple.com/gb/book/unlooked-for-tales/id6504717447" class="button is-info" target="_blank">Buy from Apple Books</a>
+
 </div>
