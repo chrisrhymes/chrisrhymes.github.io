@@ -7,7 +7,6 @@ hero_height: is-large
 hero_darken: true
 image: /img/tailwindcss-toggle.jpg
 tags: webdev css tailwind
-comments: false
 ---
 
 I've only just started using TailwindCSS, (I know late to the party huh), and I wanted to create a custom toggle switch that looked a bit nicer than a standard checkbox. This blog post goes through some of the thought processes and the tools that Tailwindcss v4 has out of the box that you can make use of.
@@ -98,7 +97,7 @@ We can also use the keyboard to focus on the checkbox using tab, then use space 
 
 It's always useful to indicate the focus state of an input, especially for keyboard users. But in our case we have hidden the checkbox, except for screen readers so how can we show the element is focused?
 
-Again, Tailwindcss has you covered with the [focus-within](https://tailwindcss.com/docs/hover-focus-and-other-states#focus-within) utility that lets yo apply styles to a parent element when the focus state is within the parent.
+Again, Tailwindcss has you covered with the [focus-within](https://tailwindcss.com/docs/hover-focus-and-other-states#focus-within) utility that lets you apply styles to a parent element when the focus state is within the parent.
 
 We can add an amber outline by using `focus-within:` on the outer label.
 
