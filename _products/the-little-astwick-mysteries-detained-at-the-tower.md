@@ -10,7 +10,7 @@ hero_darken: false
 hero_link: https://www.amazon.co.uk/dp/B0CZZVYDWR
 hero_link_text: Buy on Amazon!
 image: https://www.littleastwick.co.uk/img/detained-at-the-tower-4by3-shadow.jpg
-price: From £1.99
+price: From £2.99
 rating: 5
 features:
   - label: Released on the 1st February 2025

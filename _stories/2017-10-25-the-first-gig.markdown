@@ -5,6 +5,8 @@ description: "Music is magic, it generates emotions"
 hero_image: /img/the-first-gig.jpg
 image: /img/the-first-gig.jpg
 hero_height: is-large
+redirect_from:
+  - /stories/the-first-gig.html
 ---
 
 There are too many interruptions in this day and age. Too many noises from cars or notifications from Facebook and Twitter and text messages and emails constantly bombarding you to check you phone or log on to you laptop. Everything is competing for your attention.
