@@ -21,6 +21,12 @@ link_sections:
         link: https://www.amazon.co.uk/dp/B0CZZVYDWR
         image: https://www.littleastwick.co.uk/img/detained-at-the-tower-4by3-shadow.jpg
         image_alt: Detained at the tower book cover
+  - title: Fantasy Adventure
+    links:
+      - name: Kine's Tale
+        link: https://www.amazon.co.uk/dp/B0FRY9KS9L
+        image: /img/kines-tale-4by3.jpg
+        image_alt: Kine's Tale book cover
   - title: Contemporary SciFi
     links:
       - name: Nigel's Intranet Adventure
