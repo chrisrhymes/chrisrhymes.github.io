@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "bulma-clean-theme",  '1.3.0'
+gem "bulma-clean-theme",  '1.3.1'
 gem 'jekyll-redirect-from'
 gem "jekyll", "~> 4.3"
 gem "jekyll-remote-theme"
