@@ -21,6 +21,10 @@ link_sections:
         link: https://www.amazon.co.uk/dp/B0CZZVYDWR
         image: https://www.littleastwick.co.uk/img/detained-at-the-tower-4by3-shadow.jpg
         image_alt: Detained at the tower book cover
+      - name: The Chase at the Estate
+        link: https://www.amazon.co.uk/gp/product/B0GP8FQ68X
+        image: /img/chase-at-the-estate-4by3.jpg
+        image_alt: The Chase at the Estate book cover
   - title: Fantasy Adventure
     links:
       - name: Kine's Tale
