@@ -32,6 +32,11 @@
       link: /demos/
 - name: Stories
   link: /stories/
+  dropdown:
+    - name: Short stories
+      link: /stories/
+    - name: Blasted Blasters
+      link: /blasted-blasters/
 - name: Sponsors
   link: /sponsors/
 - name: About

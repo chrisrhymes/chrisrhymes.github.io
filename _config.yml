@@ -44,6 +44,10 @@ sass:
   style: compressed
 
 collections:
+  blasted-blasters:
+    output: true
+    layout: story
+    show_sidebar: false
   stories:
     output: true
   products:

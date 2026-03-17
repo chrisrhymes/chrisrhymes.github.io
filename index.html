@@ -28,7 +28,9 @@ links:
       <a href="{{ item.url }}" class="card-link">
         <div class="card">
           <div class="card-image">
-            <img src="{{ item.image }}" alt="{{ item.title }}" />
+            <figure class="image is-16by9">
+              <img src="{{ item.image }}" alt="{{ item.title }}" />
+            </figure>
           </div>
           <footer class="card-footer">
             <p class="card-footer-item">{{ item.title }}</p>
