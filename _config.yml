@@ -96,6 +96,7 @@ social:
 feed:
   collections:
     - stories
+    - blasted-blasters
 
 social:
   facebook: https://www.facebook.com/csrhymesauthor
