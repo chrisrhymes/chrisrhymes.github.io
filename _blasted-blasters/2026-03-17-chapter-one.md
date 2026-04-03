@@ -1,7 +1,7 @@
 ---
 title: Chapter one
 layout: story
-description: The first chapter of the scifi story Blasted Blasters
+description: The first chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
 ---
