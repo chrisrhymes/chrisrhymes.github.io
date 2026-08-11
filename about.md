@@ -48,14 +48,11 @@ I also share my recent posts on [Dev.to](https://dev.to/chrisrhymes) if you woul
 
 Like a lot of people, I have always wanted to write a book, so I decided to become an author with the help of the self publication service available for Amazon Kindle. As a developer, I find the best way to learn about something new is to go out and try it. As well as writing, editing, then getting the book published, I then used it as a way of learning more about digital marketing to generate interest in the book. One result of that is this website.
 
-I enjoyed writing and publishing the first book so much that I have now written four books.
+I enjoyed writing and publishing the first book so much that I have now written eight books.
 
 Details of my books are available on the [books](/books/) page.
 
 ### Short Stories
 
-I have also written a few short stories. These can be found on my [stories](/stories) page and also on [Medium](https://medium.com/short-stories-by-cs-rhymes).
+I have also written a few short stories. These can be found on my [short stories](/stories) page and also on [Medium](https://medium.com/short-stories-by-cs-rhymes).
 
-## Contact Me
-
-If you wish to make contact, why not send me a tweet through [twitter](https://twitter.com/chrisrhymes).

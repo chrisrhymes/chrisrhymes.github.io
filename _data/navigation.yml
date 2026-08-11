@@ -19,7 +19,14 @@
       link: /products/how-not-to-make-a-website
     - name: How NOT to use a Smartphone
       link: /products/how-not-to-use-a-smartphone
-- name: My Work
+- name: Stories
+  link: /stories/
+  dropdown:
+    - name: Short stories
+      link: /stories/
+    - name: Blasted Blasters
+      link: /blasted-blasters/
+- name: Dev Work
   link: #
   dropdown:
     - name: Themes
@@ -30,13 +37,6 @@
       link: /sites/
     - name: Demos
       link: /demos/
-- name: Stories
-  link: /stories/
-  dropdown:
-    - name: Short stories
-      link: /stories/
-    - name: Blasted Blasters
-      link: /blasted-blasters/
 - name: Sponsors
   link: /sponsors/
 - name: About

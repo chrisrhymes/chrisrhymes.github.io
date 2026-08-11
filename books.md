@@ -10,10 +10,6 @@ hero_darken: true
 sort: title
 ---
 
-I really enjoy writing. I find it a great way to express myself.
+I have written a range of different books, from short fiction books about web development and smart phones, a cosy mystery series set in a small English village, a contemporary sci-fi novella and a fantasy adventure story.  
 
-You can take your time and really think about what you want to say. I also enjoy helping people and I find writing is a great way of achieving this.
-
-I wanted to share what I have learnt throughout my time as a web developer and also my love of tech. I have written two books that are now available on the Amazon Kindle store.
-
-Check out the links below for more information.
+Details of all the books can be found below. 
