@@ -133,6 +133,45 @@ links:
   <div class="columns is-multiline is-centered">
     <div class="column is-12">
       <div class="content">
+        <h2 class="has-text-centered">Blasted Blasters - Latest Chapter</h2>
+      </div>
+    </div>
+    <div class="column is-12">
+      <section class="hero is-light">
+        <div class="hero-body">
+          <div class="columns">
+            {% assign chapters = site.blasted-blasters | reverse %} {% for item in chapters
+                    limit:1 %}
+              <div class="column is-4">
+                <img
+                        src="{{ item.hero_image | replace: 'http:', 'https:' }}"
+                        alt="{{ item.title }}"
+                />
+              </div>
+              <div class="column is-8 has-text-centered">
+                <p class="title is-4">{{ item.title }}</p>
+                <p class="subtitle is-6">
+                  Published: {{ item.date | date: "%b %-d, %Y" }}
+                </p>
+                <div class="content has-text-centered">
+                  <p>{{ item.excerpt }}</p>
+                </div>
+                <div class="has-text-centered">
+                  <a href="{{ item.url }}" class="button is-info">Read Latest Chapter</a>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-multiline is-centered">
+    <div class="column is-12">
+      <div class="content">
         <h2 class="has-text-centered">Latest Short Story</h2>
       </div>
     </div>
