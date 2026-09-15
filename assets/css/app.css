@@ -1,68 +1,37 @@
 ---
 ---
 
-$primary: #333333;
-$info: #981430;
-$pagination-current-background-color: $info;
-$pagination-current-border-color: $info;
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@source "./**/*.{md,html}";
+@source inline("aspect-{1/1,4/3,3/2,16/9}");
+@plugin "@tailwindcss/typography";
 
-// Import Main CSS file from theme
-@import "main";
-
-.content a {
-  text-decoration: underline;
-  font-weight: bold;
+@theme {
+  --font-serif: 'Literata', 'serif';
 }
 
-.content a:hover {
-  text-decoration: underline dotted;
-}
-
-.content a:focus,
-.content a:active {
-  box-shadow: 0 0 0 2px $link;
-  background: $link;
-  color: $white;
-}
-
-a.card-link {
-  display: block;
-  border-radius: 0.75rem;
-}
-
-a.card-link:hover,
-a.card-link:focus,
-a.card-link:focus {
-  box-shadow: 0 0 0 2px $link;
-}
-
-.hero {
-  .title,
-  .subtitle {
-    text-shadow: 1px 1px rgba($primary, 0.5);
-    animation: appear 1s;
+@layer base {
+  a {
+    @apply underline hover:decoration-dotted focus:bg-amber-400 focus:text-black focus:outline-2 focus:outline-black active:bg-amber-400 active:text-black active:outline-2 active:outline-black;
+  }
+  body {
+    @apply font-serif;
   }
 }
 
-div.highlight {
-  margin-bottom: 1rem;
+body {
+  background-color: #ffffff;
 }
 
-@keyframes appear {
-  0% {
-    opacity: 0;
-    transform: translateY(1rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.highlight {
+  color: black;
 }
 
 #carbonads {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
 }
 
 #carbonads {
@@ -121,13 +90,13 @@ div.highlight {
   right: 0;
   padding: 6px 10px;
   background: repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      hsla(0, 0%, 0%, 0.025) 5px,
-      hsla(0, 0%, 0%, 0.025) 10px
-    )
-    hsla(203, 11%, 95%, 0.8);
+          -45deg,
+          transparent,
+          transparent 5px,
+          hsla(0, 0%, 0%, 0.025) 5px,
+          hsla(0, 0%, 0%, 0.025) 10px
+  )
+  hsla(203, 11%, 95%, 0.8);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;

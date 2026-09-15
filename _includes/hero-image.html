@@ -1,0 +1,23 @@
+{% if page.hero_image %}
+<div
+    class="aspect-16/9 bg-cover bg-center md:bg-fixed lg:aspect-24/9"
+    style="background-image: url({{ page.hero_image }})"
+></div>
+<div class="relative container mx-auto -mt-8 lg:-mt-16">
+    <div class="mb-8 bg-gray-100 px-4 py-8">
+        <h1 class="text-3xl font-bold">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="mt-6 text-xl">{{ page.subtitle }}</p>
+        {% endif %}
+    </div>
+</div>
+{% else %}
+<div class="container mx-auto">
+    <div class="mb-8 bg-gray-100 px-4 py-8">
+        <h1 class="text-3xl font-bold">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="mt-6 text-xl">{{ page.subtitle }}</p>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

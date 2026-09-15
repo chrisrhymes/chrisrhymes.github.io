@@ -1,8 +1,14 @@
-source 'https://rubygems.org'
-gem "bulma-clean-theme",  '1.3.1'
-gem 'jekyll-redirect-from'
-gem "jekyll", "~> 4.3"
-gem "jekyll-remote-theme"
-gem "csv", "~> 3.3"
+# frozen_string_literal: true
 
-gem "base64", "~> 0.2.0"
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"
+gem "jekyll-postcss-v2", "~> 1.0"
+gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "html-proofer"
+gem "csv"
+gem "base64"

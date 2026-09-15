@@ -1,0 +1,34 @@
+{% assign series = site.data.[page.series] %} {% assign posts = site.posts %}
+<hr class="my-4" />
+<p class="my-4 text-lg font-bold">{{ series.title }}</p>
+
+{% if series.description %}
+<div class="prose">
+    <p>{{ series.description }}</p>
+</div>
+{% endif %}
+<div>
+    {% for section in series.sections %}
+    <div>
+        {% if section.label %}
+        <p class="title is-6">{{ section.label }}</p>
+        {% endif %}
+    </div>
+
+    <ul class="ml-4 list-disc">
+        {% for item in section.items %} {% assign post = posts | where: 'title',
+        item.title %} {% if page.url == post[0].url %}
+        <li class="">
+            <span>{{ item.title }}</span>
+        </li>
+        {% else %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post[0].url }}" class="is-flex"
+                >{{ item.title }}</a
+            >
+        </li>
+        {% endif %} {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+<hr class="my-4" />

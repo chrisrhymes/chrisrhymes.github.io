@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<section
+    {%
+    if
+    page.background_image
+    %}
+    style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"
+    {%
+    else
+    %}
+    class="bg-gray-900"
+    {%
+    endif
+    %}
+>
+    <div class="flex">
+        <div class="flex w-full flex-col items-center">
+            <div
+                class="flex w-full flex-col flex-wrap items-center gap-4 md:w-2/3 lg:w-1/2"
+            >
+                <figure class="image is-128x128">
+                    <img
+                        class="aspect-square max-w-32 rounded"
+                        src="{{ page.avatar | relative_url }}"
+                        alt="{{ page.avatar_alt }}"
+                    />
+                </figure>
+
+                <div class="rounded bg-white px-8 py-4">
+                    {% include follow.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="mx-auto w-full p-2 lg:w-1/2">
+            {% for section in page.link_sections %}
+            <h2 class="my-8 text-center text-lg font-bold text-white">
+                {{ section.title }}
+            </h2>
+            <ul class="flex flex-col">
+                {% for section_link in section.links %}
+                <li class="mb-4">
+                    <a
+                        href="{{ section_link.link | relative_url}}"
+                        class="rounded bg-white"
+                    >
+                        {% if section_link.image_large %}
+                        <section
+                            class=""
+                            style="background: url('{{ section_link.image | relative_url }}') no-repeat center center; background-size: cover;"
+                        >
+                            <div class="bg-white py-8">
+                                <div class="text-lg">
+                                    {{ section_link.name | markdownify }}
+                                </div>
+                            </div>
+                        </section>
+                        {% else %}
+                        <div
+                            class="grid grid-cols-3 items-center rounded bg-white shadow-lg"
+                        >
+                            <figure class="col-span-1">
+                                <span class="image is-48x48">
+                                    <img
+                                        src="{{ section_link.image | relative_url }}"
+                                        alt="{{ section_link.image_alt }}"
+                                        class="rounded"
+                                    />
+                                </span>
+                            </figure>
+                            <div class="col-span-2">
+                                <div class="prose">
+                                    <p class="">
+                                        <strong>{{ section_link.name }}</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %} {% if content %}
+            <div class="mt-6 mb-8 rounded bg-white p-4">
+                <div class="prose">{{ content }}</div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

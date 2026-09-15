@@ -1,0 +1,80 @@
+<div class="bg-gray-900" x-data="{ open: false }">
+    <div class="container mx-auto flex flex-col lg:flex-row">
+        <div class="flex flex-row items-center justify-between">
+            <a href="{{ '/' | relative_url }}" class="block p-4 text-white"
+                >{{ site.title }}</a
+            >
+            <button
+                class="flex cursor-pointer p-4 text-white lg:hidden"
+                x-on:click="open = ! open"
+            >
+                <template x-if="open"
+                    ><span
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18 18 6M6 6l12 12"
+                            />
+                        </svg> </span
+                ></template>
+                <template x-if="!open"
+                    ><span
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            />
+                        </svg> </span
+                ></template>
+            </button>
+        </div>
+
+        <ul
+            class="flex-col py-4 lg:flex lg:flex-row"
+            :class="open ? 'flex' : 'hidden'"
+        >
+            {% if site.data.navigation %} {% for item in site.data.navigation %}
+
+            <li class="group relative flex flex-col p-4 lg:flex-row">
+                <a
+                    href="{{ item.link | relative_url }}"
+                    class="{% if page.url contains item.link %}decoration-dotted{% endif %} block w-full py-2 text-white"
+                >
+                    {{- item.name -}}
+                </a>
+                {% if item.dropdown %}
+                <ul
+                    class="relative w-full bg-gray-800 p-4 pt-2 shadow-lg lg:absolute lg:top-14 lg:z-50 lg:flex lg:hidden lg:w-48 lg:w-56 lg:flex-col lg:group-focus-within:flex lg:group-hover:flex"
+                >
+                    {% for subitem in item.dropdown %}
+                    <li>
+                        <a
+                            href="{{ subitem.link | relative_url }}"
+                            class="{% if subitem.link == page.url %}is-active{% endif %} mb-2 block p-2 text-sm text-white"
+                        >
+                            {{- subitem.name -}}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endif %} {% endfor %} {% endif %}
+        </ul>
+    </div>
+</div>
