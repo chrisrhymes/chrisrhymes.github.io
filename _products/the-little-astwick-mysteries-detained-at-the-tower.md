@@ -33,7 +33,5 @@ Discover more about the centuries of myths and legends of Little-Astwick and the
 
 Follow David and Evelyn as they fight for freedom, as well as following Barksley and George as they uncover more of The Little-Aswtick Mystery.
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B0CZZVYDWR" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0CZZVYDWR" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0CZZVYDWR)
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0CZZVYDWR)

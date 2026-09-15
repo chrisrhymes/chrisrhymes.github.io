@@ -23,9 +23,7 @@ A fast paced crime mystery set in the fictional English village of Little-Astwic
 
 Whilst out walking her faithful dog, (Charlie), Evelyn noticed the church doors were open and signs of a disturbance inside. Follow the duo through their investigation around the village, in their attempts to solve the mystery of Little-Astwick.
 
-<p><strong>Free on Kindle Unlimited</strong></p>
+**Free on Kindle Unlimited**
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B0CRQH4BYW" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0CRQH4BYW" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0CRQH4BYW) 
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0CRQH4BYW)

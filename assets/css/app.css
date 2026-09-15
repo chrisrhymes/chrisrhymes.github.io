@@ -111,3 +111,8 @@ body {
     font-size: 14px;
   }
 }
+
+#mc_embed_signup {
+  width: 100% !important;
+  max-width: 100% !important;
+}

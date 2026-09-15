@@ -29,9 +29,7 @@ The new found friendship leads to a journey of technological invention, trickery
 
 Go on a journey of self discovery with Nigel as he finds his self confidence and unlocks his true potential.
 
-<p><strong>Free on Kindle Unlimited</strong></p>
+**Free on Kindle Unlimited**
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B08GTYPX2W/" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="http://www.amazon.com/dp/B08GTYPX2W/" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B08GTYPX2W/)
+- [Buy from Amazon USA](http://www.amazon.com/dp/B08GTYPX2W/)

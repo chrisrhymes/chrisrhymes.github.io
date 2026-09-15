@@ -31,7 +31,5 @@ Their lives and experiences are so very different from each other, how will they
 
 Forced to travel together, connections form and understanding grows. Could friendship form or will revenge be the be all, and end all for the stranger.
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B0FRY9KS9L" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0FRY9KS9L" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0FRY9KS9L)
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0FRY9KS9L)

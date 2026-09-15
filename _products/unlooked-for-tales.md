@@ -27,10 +27,7 @@ When doing some research for what these very short stories should be called, I c
 
 This book is a collection of these sudden fiction stories that I have been writing since 2014 and published on my website. I have decided to bring them together in a collection for a new audience, but also added a new story that is exclusive to this collection.
 
-<div class="buttons is-centered">
-<a href="https://books.apple.com/gb/book/unlooked-for-tales/id6504717447" class="button is-info" target="_blank">Read for free on Apple Books</a>
-<a href="https://play.google.com/store/books/details/C_S_Rhymes_Unlooked_for_Tales?id=xsoSEQAAQBAJ&hl=en_GB" class="button is-info" target="_blank">Read for free on Google Play Books</a>
-<a href="https://www.amazon.co.uk/dp/B0D7SZ5WXS" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0D7SZ5WXS" class="button is-info" target="_blank">Buy from Amazon USA</a>
-
-</div>
+- [Read for free on Apple Books](https://books.apple.com/gb/book/unlooked-for-tales/id6504717447)
+- [Read for free on Google Play Books](https://play.google.com/store/books/details/C_S_Rhymes_Unlooked_for_Tales?id=xsoSEQAAQBAJ&hl=en_GB)
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0D7SZ5WXS)
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0D7SZ5WXS)

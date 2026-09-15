@@ -35,7 +35,5 @@ The more they uncover, the more there is for them to lose. David and Evelyn rejo
 
 **Free to read on Kindle Unlimited**
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B0GP8FQ68X" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0GP8FQ68X" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0GP8FQ68X)
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0GP8FQ68X)

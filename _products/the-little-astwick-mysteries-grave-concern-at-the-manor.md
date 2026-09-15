@@ -28,7 +28,5 @@ A local metal detectorist, Alan, makes the find of his life in a field just outs
 
 David Morgan, a community support officer, and his new friend Evelyn Mckenzie are one again involved in solving the latest mystery set in the fictional English village of Little-Astwick. One story quickly leads into another, uncovering a story that has laid hidden for centuries.
 
-<div class="buttons is-centered">
-<a href="https://www.amazon.co.uk/dp/B0CXQ5KXBJ" class="button is-info" target="_blank">Buy from Amazon UK</a>
-<a href="https://www.amazon.com/dp/B0CXQ5KXBJ" class="button is-info" target="_blank">Buy from Amazon USA</a>
-</div>
+- [Buy from Amazon UK](https://www.amazon.co.uk/dp/B0CXQ5KXBJ)
+- [Buy from Amazon USA](https://www.amazon.com/dp/B0CXQ5KXBJ)
