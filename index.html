@@ -1,208 +1,190 @@
 ---
 layout: default
-title: Web Dev & Author
+title: C.S. Rhymes | Web Dev & Author
 subtitle: |
-  Making websites and themes,<br>
-  and writing books and stories
+    Making websites and themes, and writing books and stories
 permalink: /
 image: http://www.csrhymes.com/img/about-hero.jpg
 description: I'm a full time web developer and a part time author, making effective, modern websites. Check out my blog for tips and tutorials on PHP and Laravel.
 hero_image: /img/about-hero.jpg
 hero_height: is-fullheight
 links:
-  - title: Books
-    url: /books/
-    image: /img/4-covers-little-astwick.jpg
-  - title: Short Stories
-    url: /stories/
-    image: /img/the-power-cut.jpg
-  - title: Jekyll Themes
-    url: /themes
-    image: /img/about-hero.jpg
+    - title: Books
+      url: /books/
+      image: /img/4-covers-little-astwick.jpg
+    - title: Short Stories
+      url: /stories/
+      image: /img/the-power-cut.jpg
+    - title: Jekyll Themes
+      url: /themes
+      image: /img/about-hero.jpg
 ---
 
-<section class="section">
-  <div class="columns is-multiline">
-    {% for item in page.links %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ item.url }}" class="card-link">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-16by9">
-              <img src="{{ item.image }}" alt="{{ item.title }}" />
+<section class="my-8">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        {% for item in page.links %}
+        <a
+            href="{{ item.url }}"
+            class="block hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+        >
+            <figure class="aspect-16/9">
+                <img src="{{ item.image }}" alt="{{ item.title }}" />
             </figure>
-          </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">{{ item.title }}</p>
-          </footer>
-        </div>
-      </a>
+
+            <footer class="px-2">
+                <p class="">{{ item.title }}</p>
+            </footer>
+        </a>
+        {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 </section>
 
-<div class="columns is-multiline is-mobile is-centered">
-  <div class="column is-2-desktop is-4-tablet is-6-mobile">
-    <img src="/img/avatar.png" width="100%" alt="Who am I?" />
-  </div>
+<div class="my-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+    <div class="col-span-1 md:col-span-1">
+        <img src="/img/avatar.png" width="100%" alt="Who am I?" />
+    </div>
 
-  <div class="column is-6-desktop is-6-tablet is-12-mobile content">
-    <h2 class="has-text-centered">Who am I?</h2>
-    <p>
-      Hello and welcome! My name is C.S. Rhymes and I'm a full time web
-      developer and a part time author, based in Brackley, Northamptonshire.
-    </p>
+    <div class="prose col-span-1 md:col-span-2">
+        <h2 class="">Who am I?</h2>
+        <p>
+            Hello and welcome! My name is C.S. Rhymes and I'm a full time web
+            developer and a part time author, based in Brackley,
+            Northamptonshire.
+        </p>
 
-    <p>
-      I have over fifteen years experience of web development, from backend php
-      coding specialising in Laravel, to frontend HTML, CSS, Sass &amp;
-      JavaScript, including React and TypeScript.
-    </p>
+        <p>
+            I have over fifteen years experience of web development, from
+            backend php coding specialising in Laravel, to frontend HTML, CSS,
+            Sass &amp; JavaScript, including React and TypeScript.
+        </p>
 
-    <p>
-      Web development is great. I really enjoy being able to release my
-      creativity and solve challenges.
-    </p>
-    <p>
-      This creativity then led me into writing. I've written eight
-      <a href="/books/">books</a> that are all available on the Amazon Kindle store.
-    </p>
+        <p>
+            Web development is great. I really enjoy being able to release my
+            creativity and solve challenges.
+        </p>
+        <p>
+            This creativity then led me into writing. I've written eight
+            <a href="/books/">books</a> that are all available on the Amazon
+            Kindle store.
+        </p>
 
-    <p>
-      I also enjoy writing <a href="/stories/">short stories</a> which can be
-      found on my website and also available as a <a href="/products/unlooked-for-tales.html">free ebook</a>.
-    </p>
+        <p>
+            I also enjoy writing <a href="/stories/">short stories</a> which can
+            be found on my website and also available as a
+            <a href="/products/unlooked-for-tales.html">free ebook</a>.
+        </p>
 
-    <p>
-      I also write a <a href="/blog/" title="Check out my blog">blog</a> on this
-      site as well as writing on
-      <a href="https://dev.to/chrisrhymes">devto</a>
-      with technology, web and other random topics, so make sure you check them
-      out too.
-    </p>
-  </div>
+        <p>
+            I also write a
+            <a href="/blog/" title="Check out my blog">blog</a> on this site as
+            well as writing on
+            <a href="https://dev.to/chrisrhymes">devto</a>
+            with technology, web and other random topics, so make sure you check
+            them out too.
+        </p>
+    </div>
 </div>
 
-{% for post in site.posts limit:1 %}
-<section class="section">
-  <div class="columns is-multiline">
-    <div class="column is-12">
-      <div class="content">
-        <h2 class="has-text-centered">Latest Blog Post</h2>
-      </div>
-    </div>
-    <div class="column is-12">
-      <section class="hero is-dark">
-        <div class="hero-body">
-          <div class="columns">
-            <div class="column is-4">
-              <img
+<section class="my-16">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div class="lg:col-span-2">
+            <div class="content">
+                <h2 class="text-2xl font-bold">Latest Blog Posts</h2>
+            </div>
+        </div>
+        {% for post in site.posts limit:2 %}
+
+        <div
+            class="relative isolate hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+        >
+            <img
                 src="{{ post.image | replace: 'http:', 'https:' }}"
                 alt="{{ post.title }}"
-              />
-            </div>
-            <div class="column is-8">
-              <div class="has-text-centered">
+                class="aspect-16/9"
+            />
+
+            <div class="px-2">
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                  <h3 class="title is-4">{{ post.title }}</h3>
+                    <h3 class="text-xl font-bold">{{ post.title }}</h3>
+                    <span class="absolute inset-0 z-10"></span>
                 </a>
-                <p class="subtitle is-6">
-                  Published: {{ post.date | date: "%b %-d, %Y" }}
+                <p class="my-2">
+                    Published: {{ post.date | date: "%b %-d, %Y" }}
                 </p>
-                <div class="content">
-                  <p>{{ post.excerpt }}</p>
+                <div class="prose">
+                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                 </div>
-                <a
-                  href="{{ post.url | prepend: site.baseurl }}"
-                  class="button is-info"
-                >
-                  Read more...
-                </a>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
-    </div>
-  </div>
-</section>
-{% endfor %}
 
-<section class="section">
-  <div class="columns is-multiline is-centered">
-    <div class="column is-12">
-      <div class="content">
-        <h2 class="has-text-centered">Blasted Blasters - Latest Chapter</h2>
-      </div>
+        {% endfor %}
     </div>
-    <div class="column is-12">
-      <section class="hero is-light">
-        <div class="hero-body">
-          <div class="columns">
-            {% assign chapters = site.blasted-blasters | reverse %} {% for item in chapters
-                    limit:1 %}
-              <div class="column is-4">
-                <img
-                        src="{{ item.hero_image | replace: 'http:', 'https:' }}"
-                        alt="{{ item.title }}"
-                />
-              </div>
-              <div class="column is-8 has-text-centered">
-                <p class="title is-4">{{ item.title }}</p>
-                <p class="subtitle is-6">
-                  Published: {{ item.date | date: "%b %-d, %Y" }}
-                </p>
-                <div class="content has-text-centered">
-                  <p>{{ item.excerpt }}</p>
-                </div>
-                <div class="has-text-centered">
-                  <a href="{{ item.url }}" class="button is-info">Read Latest Chapter</a>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
 </section>
 
-<section class="section">
-  <div class="columns is-multiline is-centered">
-    <div class="column is-12">
-      <div class="content">
-        <h2 class="has-text-centered">Latest Short Story</h2>
-      </div>
-    </div>
-    <div class="column is-12">
-      <section class="hero is-light">
-        <div class="hero-body">
-          <div class="columns">
-            {% assign stories = site.stories | reverse %} {% for item in stories
-            limit:1 %}
-            <div class="column is-4">
-              <img
-                src="{{ item.hero_image | replace: 'http:', 'https:' }}"
+<section class="my-16">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div class="lg:col-span-2">
+            <div class="content">
+                <h2 class="text-2xl font-bold">
+                    Latest Chapters - Blasted Blasters
+                </h2>
+            </div>
+        </div>
+        {% assign chapters = site.blasted-blasters | reverse %} {% for item in
+        chapters limit:2 %}
+
+        <div
+            class="relative isolate hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+        >
+            <img
+                src="{{ item.image | replace: 'http:', 'https:' }}"
                 alt="{{ item.title }}"
-              />
+                class="aspect-16/9"
+            />
+
+            <div class="px-2">
+                <a href="{{ item.url | prepend: site.baseurl }}">
+                    <h3 class="text-xl font-bold">{{ item.title }}</h3>
+                    <span class="absolute inset-0 z-10"></span>
+                </a>
+                <div class="prose">
+                    <p>{{ item.excerpt | strip_html | truncatewords: 30 }}</p>
+                </div>
             </div>
-            <div class="column is-8 has-text-centered">
-              <p class="title is-4">{{ item.title }}</p>
-              <p class="subtitle is-6">
-                Published: {{ item.date | date: "%b %-d, %Y" }}
-              </p>
-              <div class="content has-text-centered">
-                <p>{{ item.excerpt }}</p>
-              </div>
-              <div class="has-text-centered">
-                <a href="{{ item.url }}" class="button is-info">Read Story</a>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
         </div>
-      </section>
+        {% endfor %}
     </div>
-  </div>
+</section>
+
+<section class="my-16">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div class="lg:col-span-2">
+            <div class="content">
+                <h2 class="text-2xl font-bold">Latest Stories</h2>
+            </div>
+        </div>
+        {% assign stories = site.stories | reverse %} {% for item in stories
+        limit:2 %}
+
+        <div
+            class="relative isolate hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+        >
+            <img
+                src="{{ item.image | replace: 'http:', 'https:' }}"
+                alt="{{ item.title }}"
+                class="aspect-16/9"
+            />
+
+            <div class="px-2">
+                <a href="{{ item.url | prepend: site.baseurl }}">
+                    <h3 class="text-xl font-bold">{{ item.title }}</h3>
+                    <span class="absolute inset-0 z-10"></span>
+                </a>
+                <div class="prose">
+                    <p>{{ item.excerpt | strip_html | truncatewords: 30 }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </section>

@@ -7,10 +7,12 @@ layout: default
         {% include carbon.html %}
 
         <div class="content">
+            <p>
+                Published: {{ page.date | date: "%b %-d, %Y" }} by {{
+                page.author }}
+            </p>
 
-            <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
-            {{ content }}
+            <div class="prose">{{ content }}</div>
         </div>
 
         <div class="tags">
@@ -19,16 +21,10 @@ layout: default
             {% endfor %}
         </div>
 
-        {% include share-buttons.html %}
-
         {% include collection-pagination.html %}
 
         <section class="hero">
-            <div class="hero-body">
-                {% include newsletter.html %}
-            </div>
+            <div class="hero-body">{% include newsletter.html %}</div>
         </section>
     </div>
 </div>
-
-                            

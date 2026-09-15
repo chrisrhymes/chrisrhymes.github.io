@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="mb-4 py-4">
+    <div class="prose max-w-none pb-4">{{ content }}</div>
+
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        {% for post in paginator.posts %}
+        <div
+            class="relative isolate hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+        >
+            <img
+                src="{{ post.image | replace: 'http:', 'https:' }}"
+                alt="{{ post.title }}"
+                class="aspect-16/9"
+            />
+
+            <div class="px-2">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h3 class="text-xl font-bold">{{ post.title }}</h3>
+                    <span class="absolute inset-0 z-10"></span>
+                </a>
+                <div class="prose">
+                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="my-8 flex justify-between">
+        {% if paginator.previous_page %}
+        <a
+            href="{{ paginator.previous_page_path | relative_url }}"
+            class="cursor-pointer border border-2 border-gray-100 px-4 py-2"
+        >
+            Previous
+        </a>
+        {% else %}
+        <a
+            href="#"
+            class="border border-2 border-gray-100 px-4 py-2 text-gray-500"
+        >
+            Previous
+        </a>
+        {% endif %} {% if paginator.next_page %}
+        <a
+            href="{{ paginator.next_page_path | relative_url }}"
+            class="cursor-pointer border border-2 border-gray-100 px-4 py-2"
+        >
+            Next
+        </a>
+        {% else %}
+        <a
+            href="#"
+            class="rounded border border-2 border-gray-100 px-4 py-2 text-gray-500"
+        >
+            Next
+        </a>
+        {% endif %}
+    </div>
+</div>

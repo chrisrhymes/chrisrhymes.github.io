@@ -1,0 +1,43 @@
+{% if page.sponsors %} {% assign tiers=site.data.[page.sponsors] %}
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+    {% for tier in tiers %}
+    <div class="col-span-1 lg:col-span-3">
+        <p class="text-bold text-2xl">
+            <span>{{ tier.tier_name }}</span>
+        </p>
+        <p class="text-xl">
+            <span class="icon is-large gh-sponsor"
+                ><i class="fas fa-heart fa-2x"></i
+            ></span>
+        </p>
+        <div class="col-span-1">
+            <div class="prose">
+                <p>{{ tier.description | markdownify }}</p>
+            </div>
+        </div>
+
+        <div
+            class="col-span-1 mt-8 grid grid-cols-1 gap-6 lg:col-span-3 lg:grid-cols-3"
+        >
+            {% for sponsor in tier.sponsors %}
+            <div class="col-span-1 lg:col-span-1">
+                <div class="rounded p-4 text-center shadow-xl">
+                    <p class="text-lg font-bold">{{ sponsor.name }}</p>
+                    <p class="subtitle is-6">
+                        {% if sponsor.profile %}
+                        <a href="{{ sponsor.profile }}" class="is-link is-small"
+                            >View Profile</a
+                        >
+                        {% else %} &nbsp; {% endif %}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-span-1 my-8 lg:col-span-3">
+        <hr />
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

@@ -1,27 +1,32 @@
 {
-  "name": "chrisrhymes.github.io",
-  "version": "1.0.0",
-  "description": "CS Rhymes personal site",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrisrhymes/chrisrhymes.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrisrhymes/chrisrhymes.github.io/issues"
-  },
-  "homepage": "https://github.com/chrisrhymes/chrisrhymes.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.23.5",
-    "bulma": "^0.5.1",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-shell": "^0.6.5",
-    "lodash": "^4.17.4"
-  }
+    "name": "chrisrhymes.github.io",
+    "version": "1.0.0",
+    "description": "CS Rhymes personal site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chrisrhymes/chrisrhymes.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chrisrhymes/chrisrhymes.github.io/issues"
+    },
+    "homepage": "https://github.com/chrisrhymes/chrisrhymes.github.io#readme",
+    "devDependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/postcss": "^4.1.13",
+        "@tailwindcss/typography": "^0.5.9",
+        "autoprefixer": "^10.4.15",
+        "cssnano": "^6.0.1",
+        "postcss": "^8.4.28",
+        "postcss-cli": "^10.1.0",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.14",
+        "tailwindcss": "^4.1.13"
+    }
 }

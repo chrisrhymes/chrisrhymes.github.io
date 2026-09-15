@@ -1,0 +1,86 @@
+{% if page.showcase %} {% assign showcase = site.data.[page.showcase] %}
+
+<div class="prose">
+    <p>{{ showcase.intro | markdownify }}</p>
+</div>
+
+{% for item in showcase.items %}
+<section
+    class="mb-16 grid grid-cols-1 gap-8 border-b border-gray-300 pb-16 lg:grid-cols-2"
+>
+    <figure class="col-span-1 shadow lg:col-span-1">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" />
+    </figure>
+    <div class="col-span-1 lg:col-span-1">
+        <div class="columns is-centered">
+            <div class="column is-8-desktop is-12-tablet">
+                <p class="text-xl font-bold">{{ item.title }}</p>
+                <p class="text-sm">{{ item.subtitle }}</p>
+
+                {% if item.github %}
+                <div class="my-6 flex flex-row gap-4">
+                    <a
+                        href="https://github.com/{{ item.github }}/stargazers"
+                        class=""
+                    >
+                        <img
+                            alt="GitHub stars"
+                            src="https://img.shields.io/github/stars/{{ item.github }}?style=social"
+                        />
+                    </a>
+                    <a
+                        href="https://github.com/{{ item.github }}/network/members"
+                        class=""
+                    >
+                        <img
+                            alt="GitHub forks"
+                            src="https://img.shields.io/github/forks/{{ item.github }}?style=social"
+                        />
+                    </a>
+                    <a
+                        href="https://github.com/{{ item.github }}/watchers"
+                        class=""
+                    >
+                        <img
+                            alt="GitHub watchers"
+                            src="https://img.shields.io/github/watchers/{{ item.github }}?style=social"
+                        />
+                    </a>
+                </div>
+                {% endif %}
+
+                <div class="prose">
+                    <p>{{ item.description | markdownify }}</p>
+                </div>
+
+                {% if item.features %}
+                <ul class="ml-4 list-disc">
+                    {% for feature in item.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %} {% if item.tags %} {% assign tags = item.tags |
+                split: ',' %}
+                <div class="my-6 flex flex-row flex-wrap justify-start gap-4">
+                    {% for tag in tags %}
+                    <span
+                        class="rounded bg-gray-100 px-2 py-1 text-center text-sm text-black"
+                        >{{ tag }}</span
+                    >
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div class="my-4">
+                    <a
+                        href="{{ item.link }}"
+                        class="block bg-gray-900 p-4 text-center text-white"
+                    >
+                        {{ item.link_text }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %} {% endif %}

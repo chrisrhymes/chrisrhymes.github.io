@@ -1,0 +1,59 @@
+<div class="">
+    <div class="container mx-auto px-4 py-6" id="cookieBanner">
+        <div class="prose">
+            <p>We use cookies on this site to enhance your user experience</p>
+            <p>
+                By clicking the Accept button, you agree to us doing so.
+                <a href="{{ site.cookie_policy | relative_url }}"
+                    >More info on our cookie policy</a
+                >
+            </p>
+        </div>
+
+        <div
+            class="mt-6 flex flex-row flex-wrap items-center justify-start gap-8"
+        >
+            <button
+                class="cursor-pointer bg-gray-900 px-4 py-2 text-white"
+                onclick="acceptCookies()"
+            >
+                Accept all cookies
+            </button>
+            <button
+                class="cursor-pointer bg-gray-900 px-4 py-2 text-white"
+                onclick="rejectCookies()"
+            >
+                Reject all cookies
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            {% if site.google_analytics %}
+            consentGrantedAdStorage();
+            {% endif %}
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>

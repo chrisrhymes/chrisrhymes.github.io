@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="prose">{{ content }}</div>
+
+{% if page.collection %} {% assign sorted_products = site[page.collection] |
+sort: page.sort %} {% else %} {% assign sorted_products = site.products | sort:
+page.sort %} {% endif %}
+<div class="my-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+    {% for product in sorted_products %}
+    <div
+        class="relative isolate z-50 mb-4 hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
+    >
+        <img
+            src="{{ product.image | replace: 'http:', 'https:' }}"
+            alt="{{ product.title }}"
+            class="aspect-4/3"
+        />
+
+        <div class="px-2">
+            <a href="{{ product.url | prepend: site.baseurl }}">
+                <h3 class="text-xl font-bold">{{ product.title }}</h3>
+                <span class="absolute inset-0 z-10"></span>
+            </a>
+            <div class="prose">
+                <p>{{ product.excerpt | strip_html | truncatewords: 30 }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

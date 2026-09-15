@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/assets/css/app.css" rel="stylesheet" />
+        <link href="/assets/css/syntax.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+
+        {% seo %} {% if site.feed %} {% feed_meta %} {% endif %} {%- if
+        site.google_analytics -%} {%- include google-analytics.html -%} {%-
+        endif -%}
+    </head>
+    <body>
+        <div>{% include cookie-banner.html %}</div>
+        <div>{% include header.html %}</div>
+        <div>{% include hero-image.html %}</div>
+        <main class="container mx-auto p-4">{{ content }}</main>
+        {% include footer.html %}
+    </body>
+</html>

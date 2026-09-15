@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="grid grid-cols-2">
+    <div class="space-y-6">
+        <figure class="image is-4by3">
+            <img src="{{ page.image }}" alt="{{ page.title }}" />
+        </figure>
+    </div>
+    <div class="">
+        <p class="text-2xl">{{ page.title }}</p>
+        <p class="">{{ page.subtitle }}</p>
+        <p class="mt-8 text-right">{{ page.price }}</p>
+        <div>
+            {% if page.product_code %}
+            <p class="text-right">{{ page.product_code }}</p>
+            {% endif %}
+        </div>
+        <div>
+            {% if page.rating %} {% include rating.html rating=page.rating %} {%
+            endif %}
+        </div>
+        {% if page.features %}
+        <ul class="my-8 list-disc">
+            {% for feature in page.features %}
+            <li>
+                <span>{{ feature.label }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+<div class="prose my-8">{{ content }}</div>
