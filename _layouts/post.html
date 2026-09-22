@@ -5,7 +5,9 @@ layout: default
 {% include carbon.html %}
 
 <div class="prose">
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+    <p class="font-bold">
+        Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}
+    </p>
 
     {% if page.series %} {% include series.html %} {% endif %}
 

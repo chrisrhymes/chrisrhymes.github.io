@@ -4,6 +4,7 @@ layout: story
 description: The fifth chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
+author: C.S. Rhymes
 ---
 
 Lily stepped out of the dusty storage room and into the main office. Jake stood facing her with his hands behind his back and a gloved hand was covering his mouth, preventing him from screaming out any warning to his colleague. Standing behind him was a group of four people, all wearing black combat fatigues, helmets, face masks, flash glasses and their matching black gloves.

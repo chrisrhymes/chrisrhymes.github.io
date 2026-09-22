@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="columns is-centered">
-    <div class="column is-6">
+<div class="">
+    <div class="">
         {% include carbon.html %}
 
-        <div class="content">
-            <p>
+        <div class="prose">
+            <p class="font-bold">
                 Published: {{ page.date | date: "%b %-d, %Y" }} by {{
                 page.author }}
             </p>
@@ -23,8 +23,8 @@ layout: default
 
         {% include collection-pagination.html %}
 
-        <section class="hero">
-            <div class="hero-body">{% include newsletter.html %}</div>
+        <section class="">
+            <div class="">{% include newsletter.html %}</div>
         </section>
     </div>
 </div>

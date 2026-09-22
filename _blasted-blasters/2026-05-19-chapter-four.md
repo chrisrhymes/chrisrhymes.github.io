@@ -4,6 +4,7 @@ layout: story
 description: The fourth chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
+author: C.S. Rhymes
 ---
 
 Hegrex sat across the table from Dagrex. They had left their ship in search of sustenance, both knowing exactly where they wanted to go.

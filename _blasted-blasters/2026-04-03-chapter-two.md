@@ -4,6 +4,7 @@ layout: story
 description: The second chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
+author: C.S. Rhymes
 ---
 
 Harry Rubhock reversed his car carefully into his parking space. It was at the opposite end of the car park to the office entrance but he wanted to keep his precious car away from the riff raff. He parked like he always did, deliberately in the centre of two parking spaces so there was plenty of space either side to prevent the risk of his car being scratched by car doors opening or people passing by carrying their coats and bags.

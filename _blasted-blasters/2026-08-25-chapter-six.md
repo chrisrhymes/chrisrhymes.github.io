@@ -4,6 +4,7 @@ layout: story
 description: The sixth chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
+author: C.S. Rhymes
 ---
 
 Lily felt the van decelerating, unable to see what was happening due to the hood over her head she was listening out for as much as possible to determine where she was being taken. There was a short and faint screech of tyres against the tarmac as it came to a complete stop. The next noise was the two back doors of the van opening. She felt the hands of the escorts help her up and out of the vehicle. Together, they walked a few steps and entered a building, the noise of her shoe heels changing to a more solid click as they stepped over the threshold and onto a solid, and probably highly polished, floor.
