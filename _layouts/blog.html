@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="py-8">{% include carbon.html %}</div>
+
 <div class="mb-4 py-4">
     <div class="prose max-w-none pb-4">{{ content }}</div>
 
@@ -10,17 +12,22 @@ layout: default
         <div
             class="relative isolate hover:outline-2 hover:outline-amber-400 focus:outline-2 focus:outline-amber-400"
         >
+            {% if post.image %}
             <img
                 src="{{ post.image | replace: 'http:', 'https:' }}"
                 alt="{{ post.title }}"
                 class="aspect-16/9"
             />
+            {% endif %}
 
             <div class="px-2">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <h3 class="text-xl font-bold">{{ post.title }}</h3>
                     <span class="absolute inset-0 z-10"></span>
                 </a>
+                <p class="py-4">
+                    Published: {{ post.date | date: '%b %-d, %Y' }}
+                </p>
                 <div class="prose">
                     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                 </div>

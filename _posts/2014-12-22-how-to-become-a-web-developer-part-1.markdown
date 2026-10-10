@@ -4,6 +4,7 @@ title:  "How to become a web developer - Part 1"
 date:   2014-12-22 21:24:07
 categories: training learning developer
 description: "If you are interested in becoming a web developer then there are many different routes you can take.  It can become a bit overwhelming when faced with the different web servers and programming languages, before you even think about writing your first web page."
+series: become_web_dev_series
 ---
 
 ## Part 1

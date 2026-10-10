@@ -4,6 +4,7 @@ title:  "How to become a web developer - Part 2"
 date:   2014-12-28 15:24:07
 categories: training learning developer
 description: "The two main things to start when becoming a web developer, buy a Mac and learn HTML."
+series: become_web_dev_series
 ---
 
 In my last post I introduced my experience of becomming a web developer, but now I would like to share with you how I would recommend to get started if I was starting now. A lot has changed over the past 10 years and I woud definitley do things differently.
