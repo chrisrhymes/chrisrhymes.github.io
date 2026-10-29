@@ -19,3 +19,7 @@ layout: default
     <span class="rounded bg-gray-100 px-4 py-2 text-black">{{ tag }}</span>
     {% endfor %}
 </div>
+
+{% if site.disqus.shortname %}
+<div class="my-8">{% include disqus.html %}</div>
+{% endif %}
