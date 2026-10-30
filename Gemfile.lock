@@ -78,6 +78,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-postcss-v2 (1.0.2)
+    jekyll-redirect-from (0.17.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.9.1)
@@ -146,6 +148,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate (~> 1.1)
   jekyll-postcss-v2 (~> 1.0)
+  jekyll-redirect-from
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap
   webrick (~> 1.8)

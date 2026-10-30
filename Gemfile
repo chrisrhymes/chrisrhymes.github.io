@@ -12,3 +12,4 @@ gem "jekyll-feed"
 gem "html-proofer"
 gem "csv"
 gem "base64"
+gem 'jekyll-redirect-from'
