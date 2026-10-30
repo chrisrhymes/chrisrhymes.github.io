@@ -2,6 +2,8 @@
 layout: page
 title: Cookies
 description: About cookies on this website
+redirect_from:
+  - /cookies/
 ---
 
 The ICO website provides additional information about cookies and how you can adjust your browser settings to control what cookies are stored.
