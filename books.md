@@ -1,6 +1,7 @@
 ---
 layout: product-category
 title: Books
+subtitle: Find out more about the books written by the author C.S. Rhymes.
 order: 1
 permalink: /books/
 description: "Find out more about the books written by author C.S. Rhymes, including How NOT to make a website and Nigel's Intranet Adventure"

@@ -1,5 +1,5 @@
 ---
-title: Packages
+title: Composer and NPM Packages
 layout: page
 description: My composer and npm open source packages available, including Bulma Block List and Bulma Blade UI
 order: 2

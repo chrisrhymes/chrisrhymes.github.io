@@ -1,7 +1,13 @@
 <!doctype html>
 <html>
     <head>
+        {% if page.collection and page.collection != 'posts' %}
+        <title>
+            {{ page.title }} | {{ page.collection }} | {{ site.title }}
+        </title>
+        {% else %}
         <title>{{ page.title }} | {{ site.title }}</title>
+        {% endif %}
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="/assets/css/app.css" rel="stylesheet" />

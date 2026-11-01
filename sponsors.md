@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sponsors
+title: GitHub Sponsors
 description: Details of my GitHub sponsors. Find out how to sponsor me on GitHub.
 sponsors: my_sponsors
 hero_image: /img/blog-hero.jpg

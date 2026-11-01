@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About C.S. Rhymes
 order: 5
 permalink: /about/
 description: "Hello and welcome! My name is C.S. Rhymes and I'm a full time web developer and a part time author"
