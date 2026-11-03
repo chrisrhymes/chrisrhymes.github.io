@@ -3,6 +3,7 @@ title: Development work
 subtitle: Some examples of my web development work
 description: Check out examples of my dev work
 layout: default
+permalink: /dev-work/
 links:
   - title: Jekyll Themes
     url: /themes/
