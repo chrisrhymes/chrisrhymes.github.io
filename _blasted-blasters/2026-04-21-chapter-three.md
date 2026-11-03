@@ -5,6 +5,9 @@ description: The third chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
 author: C.S. Rhymes
+breadcrumbs:
+  - name: Blasted Blasters
+    link: /blasted-blasters/
 ---
 
 Bring, bring, bring rang the old brass bell on the wall.

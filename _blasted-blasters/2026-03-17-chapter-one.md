@@ -5,6 +5,9 @@ description: The first chapter of the sci-fi story Blasted Blasters
 image: /img/blasted-blasters.jpg
 hero_image: /img/blasted-blasters.jpg
 author: C.S. Rhymes
+breadcrumbs:
+  - name: Blasted Blasters
+    link: /blasted-blasters/
 ---
 
 "Honestly, you're never going to hit that target from there. It's too far away, even for you!" Dargrex said.
