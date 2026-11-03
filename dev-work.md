@@ -6,7 +6,7 @@ layout: default
 permalink: /dev-work/
 links:
   - title: Jekyll Themes
-    url: /themes/
+    url: /themes
     image: /img/about-hero.jpg
   - title: Packages
     url: /packages/
