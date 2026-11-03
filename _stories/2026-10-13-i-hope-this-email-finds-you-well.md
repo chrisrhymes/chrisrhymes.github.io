@@ -5,6 +5,9 @@ description: Well? He thought to himself again, unable to remember the last time
 hero_image: /img/hope-this-finds-you-well.jpg
 image: /img/hope-this-finds-you-well.jpg
 hero_height: is-large
+breadcrumbs:
+  - name: Short Stories
+    link: /stories/
 ---
 
 "I hope this email finds you well!"

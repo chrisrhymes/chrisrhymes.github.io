@@ -17,6 +17,9 @@ seo:
   name: Nigel's Intranet Adventure
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 **Nigel's Intranet Adventure, a contemporary tech fiction book with a sprinkling of adventure, comedy and self-discovery.**

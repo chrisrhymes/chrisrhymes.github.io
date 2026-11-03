@@ -7,3 +7,5 @@ hero_image: /img/blog-hero.jpg
 image: /img/blog-hero.jpg
 permalink: /sponsors/
 ---
+
+<a href="https://github.com/sponsors/chrisrhymes" class="inline-block py-4 mb-8">Sponsor me on GitHub</a>

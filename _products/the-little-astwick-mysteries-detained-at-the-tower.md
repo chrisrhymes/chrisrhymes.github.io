@@ -21,6 +21,9 @@ seo:
   name: The Little-Astwick Mysteries - Detained at the Tower
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 **A small English village with a big mystery.**

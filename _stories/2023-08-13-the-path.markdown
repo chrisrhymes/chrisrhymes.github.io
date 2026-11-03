@@ -5,6 +5,9 @@ description: He knew the way. He walked it every day, there and back, knowing th
 hero_image: /img/the-path.jpg
 image: /img/the-path.jpg
 hero_height: is-large
+breadcrumbs:
+  - name: Short Stories
+    link: /stories/
 ---
 
 He knew the way. He walked it every day, there and back, knowing the cracks in the pavement like the back of his hands, seeing the grooves in the pavement made by his own shoes walking back and forth time after time.

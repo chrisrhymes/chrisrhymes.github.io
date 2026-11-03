@@ -21,6 +21,9 @@ seo:
   type: book
   author: C.S. Rhymes
 canonical_url: https://www.littleastwick.co.uk/books/the-chase-at-the-estate/
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 We rejoin David and Evelyn after the dramatic events in Detained at the Tower, with David in hospital and Evelyn keeping a close eye on him.

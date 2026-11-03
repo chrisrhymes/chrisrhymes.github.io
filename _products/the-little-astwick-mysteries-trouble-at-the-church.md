@@ -17,6 +17,9 @@ seo:
   name: The Little-Astwick Mysteries - Trouble at the Church
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 A fast paced crime mystery set in the fictional English village of Little-Astwick. David Morgan, a Community Support Officer, new to the area, gets plunged in at the deep end with a new acquaintance, Evelyn McKenzie, trying to figure out what has been going on at the village church.

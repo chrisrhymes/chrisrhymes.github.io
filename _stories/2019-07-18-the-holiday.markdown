@@ -5,6 +5,9 @@ description: He finally told himself enough is enough. Time for a holiday.
 hero_image: /img/the-holiday.jpg
 image: /img/the-holiday.jpg
 hero_height: is-large
+breadcrumbs:
+  - name: Short Stories
+    link: /stories/
 ---
 
 He sat in his seat, trying to stretch his legs in what little room he had with seats squeezed in both each side and in front. He had dozed off just after take off, trying to relax after the hustle and bustle of the airport. He never understood airports. Everyone rushing to get to the front of the queue to board the plane, even though everyone had pre-booked seats months in advance, people lugging their suitcases through the airport instead of checking them in to the hold. 

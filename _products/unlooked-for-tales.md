@@ -17,6 +17,9 @@ seo:
   name: Unlooked for Tales - A collection of short stories
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 I have always enjoyed writing. Sometimes I get an idea for a story in my head, but it's not yet fully formed or not suitable to turn into a full length story.

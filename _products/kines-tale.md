@@ -19,6 +19,9 @@ seo:
   name: Kine's Tale
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 Two worlds collide in this fantasy adventure story.

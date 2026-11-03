@@ -18,6 +18,9 @@ seo:
   name: The Little-Astwick Mysteries - Grave concern at the Manor
   type: book
   author: C.S. Rhymes
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 **A small village with a big mystery!**

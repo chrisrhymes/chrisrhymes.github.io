@@ -20,6 +20,9 @@ features:
 rating: 4
 redirect_from:
   - /books/how-not-to-use-a-smartphone
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 My second book was insired by my friends and family, asking very similar questions about smartphones and the differences between them. 

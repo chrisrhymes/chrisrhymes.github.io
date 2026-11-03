@@ -7,6 +7,9 @@ image: /img/packing-up-the-boxes.jpg
 hero_height: is-large
 redirect_from:
   - /stories/packing-up-the-boxes.html
+breadcrumbs:
+  - name: Short Stories
+    link: /stories/
 ---
 
 The tape was on the side next to the scissors. The tape was running low but there was still so much to do.

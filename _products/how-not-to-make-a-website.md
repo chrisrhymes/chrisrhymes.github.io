@@ -24,6 +24,9 @@ features:
 rating: 5
 redirect_from:
   - /books/how-not-to-make-a-website
+breadcrumbs:
+  - name: Books
+    link: /books/
 ---
 
 I was looking at the books on the Kindle Store and noticed that many of them had very similar titles, such as "10 ways to promote your site", or "Easy ways of getting to the top of search engines". 
