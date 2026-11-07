@@ -5,7 +5,7 @@ description: Two worlds collide in this fantasy adventure story, Kine's Tale.
 product_code: B0FRY9KS9L
 layout: product
 image: /img/kines-tale-4by3.jpg
-price: From £1.99 or free on Kindle Unlimited!
+price: From £3.99 or free on Kindle Unlimited!
 hero_link: https://www.amazon.co.uk/dp/B0FRY9KS9L
 hero_link_text: Pre-order now on Amazon!
 features:
