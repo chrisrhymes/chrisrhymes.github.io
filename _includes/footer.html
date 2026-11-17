@@ -37,6 +37,13 @@
     </div>
 </div>
 
+<div class="mt-8 flex justify-center">
+    <div class="inline-block bg-gray-100 px-4 pt-4">
+        <p class="text-center text-xl font-bold">Stay updated</p>
+        {% include follow.html %}
+    </div>
+</div>
+
 <footer class="mt-16 bg-gray-950 py-16">
     <div class="container mx-auto">
         {% if site.footer_menu %}
@@ -52,11 +59,6 @@
             {% endfor %}
         </ul>
         {% endif %}
-        <div class="my-8 flex justify-center">
-            <div class="inline-block rounded bg-gray-100 px-4">
-                {% include follow.html %}
-            </div>
-        </div>
 
         <p class="text-center text-white">&copy; C.S. Rhymes</p>
     </div>
