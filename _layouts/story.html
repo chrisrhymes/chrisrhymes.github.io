@@ -12,13 +12,15 @@ layout: default
                 page.author }}
             </p>
 
-            <div class="prose">{{ content }}</div>
-        </div>
+            <div class="my-8 flex flex-row flex-wrap gap-6">
+                {% for tag in page.tags %}
+                <span class="rounded bg-gray-100 px-4 py-2 text-black"
+                    >{{ tag }}</span
+                >
+                {% endfor %}
+            </div>
 
-        <div class="tags">
-            {% for tag in page.tags %}
-            <span class="tag is-primary">{{ tag }}</span>
-            {% endfor %}
+            <div class="prose">{{ content }}</div>
         </div>
 
         {% include collection-pagination.html %}

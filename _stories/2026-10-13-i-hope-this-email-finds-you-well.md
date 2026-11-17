@@ -5,6 +5,7 @@ description: Well? He thought to himself again, unable to remember the last time
 hero_image: /img/hope-this-finds-you-well.jpg
 image: /img/hope-this-finds-you-well.jpg
 hero_height: is-large
+tags: fiction modern-life stress
 breadcrumbs:
   - name: Short Stories
     link: /stories/
