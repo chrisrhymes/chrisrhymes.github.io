@@ -1,5 +1,6 @@
 ---
 title: Kine's Tale
+order: 1
 subtitle: By C.S. Rhymes
 description: Two worlds collide in this fantasy adventure story, Kine's Tale.
 product_code: B0FRY9KS9L

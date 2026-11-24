@@ -1,5 +1,6 @@
 ---
 title: How NOT to use a Smartphone
+order: 8
 subtitle: By C.S. Rhymes
 description: My book "How NOT to use a Smartphone" is available from the Amazon Kindle store.
 product_code: B00MVB5JOS

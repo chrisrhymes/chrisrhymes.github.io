@@ -1,5 +1,6 @@
 ---
 title: The Little-Astwick Mysteries - Detained at the Tower
+order: 4
 series: 3
 subtitle: By C.S. Rhymes
 description: My book "The Little-Astwick Mysteries - Detained at the Tower" is available now for pre-order from the Amazon Kindle store.

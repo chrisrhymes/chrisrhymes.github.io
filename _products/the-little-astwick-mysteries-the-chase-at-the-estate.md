@@ -1,5 +1,6 @@
 ---
 title: The Little-Astwick Mysteries - The Chase at the Estate
+order: 5
 series: 4
 subtitle: By C.S. Rhymes
 description: My book "The Little-Astwick Mysteries - The Chase at the Estate" is available to preorder from the Amazon Kindle store and as a paperback.

@@ -1,5 +1,6 @@
 ---
 title: Nigel's Intranet Adventure
+order: 6
 subtitle: By C.S. Rhymes
 description: My book "Nigel's Intranet Adventure" is a contemporary science fiction book available from the Amazon Kindle store.
 product_code: B08GTYPX2W

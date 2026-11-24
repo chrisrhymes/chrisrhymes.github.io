@@ -1,5 +1,6 @@
 ---
 title: The Little-Astwick Mysteries - Grave concern at the Manor
+order: 3
 series: 2
 subtitle: By C.S. Rhymes
 description: My book "The Little-Astwick Mysteries - Grave concern at the Manor" is available now for pre-order from the Amazon Kindle store.

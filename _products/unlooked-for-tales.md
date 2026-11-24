@@ -1,5 +1,6 @@
 ---
 title: Unlooked for Tales - a collection of short stories
+order: 7
 subtitle: By C.S. Rhymes
 description: Unlooked for Tales is a collection of short stories, available on Amazon Kindle
 product_code: B0D7SZ5WXS
