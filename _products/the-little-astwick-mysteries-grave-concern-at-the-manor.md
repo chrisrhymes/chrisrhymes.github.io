@@ -3,17 +3,18 @@ title: The Little-Astwick Mysteries - Grave concern at the Manor
 order: 3
 series: 2
 subtitle: By C.S. Rhymes
-description: My book "The Little-Astwick Mysteries - Grave concern at the Manor" is available now for pre-order from the Amazon Kindle store.
+description: My book "The Little-Astwick Mysteries - Grave concern at the Manor" is available now from the Amazon Kindle store.
 canonical_url: https://littleastwick.co.uk/books/grave-concern-at-the-manor
 product_code: B0CXQ5KXBJ
 layout: product
 hero_darken: false
 image: /img/grave-concern-at-the-manor-4by3.jpg
 price: From £3.99 or free on Kindle Unlimited!
+rating: 4
 features:
   - label: Released on the 1st September 2024
     icon: fa-calendar-alt
-  - label: Available for pre-order on both Kindle and paperback
+  - label: Available  on both Kindle and paperback
     icon: fa-book
 seo:
   name: The Little-Astwick Mysteries - Grave concern at the Manor
@@ -24,9 +25,9 @@ breadcrumbs:
     link: /books/
 ---
 
-**A small village with a big mystery!**
-
 The adventure continues in the second part of The Little-Astwick Mysteries series.
+
+**A small village with a big mystery!**
 
 A local metal detectorist, Alan, makes the find of his life in a field just outside the Manor house, which quickly turns into the shock of his life!
 

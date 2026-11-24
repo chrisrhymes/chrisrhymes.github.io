@@ -7,6 +7,7 @@ product_code: B0FRY9KS9L
 layout: product
 image: /img/kines-tale-4by3.jpg
 price: From £3.99 or free on Kindle Unlimited!
+rating: 5
 hero_link: https://www.amazon.co.uk/dp/B0FRY9KS9L
 hero_link_text: Pre-order now on Amazon!
 features:
@@ -24,6 +25,8 @@ breadcrumbs:
   - name: Books
     link: /books/
 ---
+
+Two strangers, two worlds, one journey.
 
 Two worlds collide in this fantasy adventure story.
 

@@ -2,17 +2,18 @@
 title: The Little-Astwick Mysteries - Trouble at the Church
 order: 2
 subtitle: By C.S. Rhymes
-description: My book "The Little-Astwick Mysteries - Trouble at the church" is available for pre-order from the Amazon Kindle store.
+description: My book "The Little-Astwick Mysteries - Trouble at the church" is available from the Amazon Kindle store.
 product_code: B0CRQH4BYW
 layout: product
 hero_image: /img/church-16by9.jpg
 hero_darken: true
 image: /img/trouble-at-the-church-4by3.jpg
 price: From £3.99 or free on Kindle Unlimited!
+rating: 4
 features:
   - label: Released on the 1st February 2024
     icon: fa-calendar-alt
-  - label: Available for pre-order on both Kindle and paperback
+  - label: Available on both Kindle and paperback
     icon: fa-book
 seo:
   name: The Little-Astwick Mysteries - Trouble at the Church

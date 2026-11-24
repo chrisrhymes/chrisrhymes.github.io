@@ -7,6 +7,7 @@ product_code: B08GTYPX2W
 layout: product
 image: /img/nigels-intranet-adventure-4by3.jpg
 price: From £3.99 or free on Kindle Unlimited!
+rating: 5
 features:
   - label: Released 7th September 2020
     icon: fa-calendar-alt

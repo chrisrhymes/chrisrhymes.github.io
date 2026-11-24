@@ -9,6 +9,7 @@ hero_image: /img/unlooked-for-tales-16by9.jpg
 hero_darken: true
 image: /img/unlooked-for-tales-cover-4by3.jpg
 price: Free on selected platforms
+rating: 3
 features:
   - label: Released on the 1st July 2024
     icon: fa-calendar-alt

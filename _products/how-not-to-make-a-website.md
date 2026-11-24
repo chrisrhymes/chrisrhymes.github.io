@@ -22,7 +22,7 @@ features:
     icon: fa-book
   - label: Provides advice on improving user experience and getting your site found in search engines
     icon: fa-book
-rating: 5
+rating: 4
 redirect_from:
   - /books/how-not-to-make-a-website
 breadcrumbs:

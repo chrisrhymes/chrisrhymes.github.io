@@ -23,6 +23,13 @@ page.sort %} {% endif %}
                 <h3 class="text-xl font-bold">{{ product.title }}</h3>
                 <span class="absolute inset-0 z-10"></span>
             </a>
+            <div>
+                {% if product.rating %}
+                <div class="my-4 flex justify-center">
+                    {% include rating.html rating=product.rating %}
+                </div>
+                {% endif %}
+            </div>
             <div class="prose">
                 <p>{{ product.excerpt | strip_html | truncatewords: 30 }}</p>
             </div>
